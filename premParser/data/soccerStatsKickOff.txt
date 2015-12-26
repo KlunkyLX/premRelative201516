@@ -1,0 +1,7959 @@
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<html lang="en">
+<head>
+
+
+
+
+
+
+
+
+<meta http-equiv="cache-control" content="max-age=2400">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+<meta http-equiv="Content-Language" content="en">
+<!-- exp 40 -->
+
+
+	<style> html{display:none;} </style>
+
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://footballgu.cluster003.ovh.net/normalize.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://footballgu.cluster003.ovh.net/skeleton.css" media="all">  
+<link rel="stylesheet" type="text/css" href="http://footballgu.cluster003.ovh.net/sshpstyle.css" media="all">
+
+
+                                 <title>Premier League</title>
+                            
+
+
+
+<link rel="icon" href="http://footballgu.cluster003.ovh.net/favicon.ico" type="image/x-icon">
+
+
+
+
+
+
+    <meta name="keywords" content="football, soccer, football scores, football stats, form table, league, standings, football results, soccer stats, current form, football statistics, league table, premier league, serie A, calcio, la liga, primera division">
+
+    <meta name="description" content="SoccerSTATS.com | An independant community focused to deliver up-to-date football results, statistics, tools and analysis.">
+
+
+
+
+
+
+
+
+<SCRIPT type="text/javascript">
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+
+
+function TimezoneDetect(){
+    var dtDate = new Date('1/1/' + (new Date()).getUTCFullYear());
+    var intOffset = 10000; 
+    var intMonth;
+    var intHoursUtc;
+    var intHours;
+    var intDaysMultiplyBy;
+ 
+    for (intMonth=0;intMonth < 12;intMonth++){
+        dtDate.setUTCMonth(dtDate.getUTCMonth() + 1);
+ 
+        if (intOffset > (dtDate.getTimezoneOffset() * (-1))){
+            intOffset = (dtDate.getTimezoneOffset() * (-1));
+        }
+    }
+ 
+    return intOffset;
+}
+
+function checkCookie() {
+    var tzoffset = getCookie("tz");
+    if (tzoffset != "") {
+
+    
+    
+    } else {
+        tzoffset = TimezoneDetect();
+
+        
+        if (tzoffset != "" && tzoffset != null) {
+            setCookie("tz", tzoffset, 1);
+        }
+    }
+}
+
+
+</script>
+
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies. By continuing to use this website you consent to their use.","dismiss":"Got it!","learnMore":"More info","link":"http://www.soccerstats.com/legal.asp#privacypolicy","theme":"light-bottom"};
+</script>
+
+<script type="text/javascript" src="//footballgu.cluster003.ovh.net/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5851561819027101",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+<script type="text/javascript" src="http://uk.ads.justpremium.com/adserve/js.php?zone=11940"></script>
+
+	<SCRIPT type="text/javascript">
+		checkCookie();
+	</SCRIPT>		
+	
+
+
+
+
+
+
+<style type="text/css">
+
+.hmenu ul{
+font: 11px arial;
+padding-left: 0;
+padding-top: 2px;
+margin-left: 0;
+height: 20px;
+}
+
+.hmenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hmenu ul li a{
+padding: 1px 0.25em;
+text-decoration: none;
+float: left;
+color: black;
+background-color: #DDDDDD;
+border: 1px solid #DDDDDD;
+}
+
+.hmenu ul li a:hover{
+background-color: #BCBCBC;
+border-style: outset;
+}
+
+html>body .hmenu ul li a:active{ 
+border-style: inset;
+}
+</style>
+
+<!-- Layout -->
+
+<div class="container">
+	 <div class="row" style="background-color:#B0B0B0;">
+ 		<!-- top bar (part 1)-->
+	 	<div class="five columns" style="background-color:#B0B0B0;">
+	 			<div id="logowrapper" style="background-color:#B0B0B0;text-align='center';height:40px;width:240px;float:left;">
+	 				<div style="margin-top:4px;margin-left:4px;background-color:#B0B0B0;">
+	 				<a href="http://www.soccerstats.com"><img src="http://footballgu.cluster003.ovh.net/img/own/sshp/sshp_2008.png" width='200' height='30' alt='SoccerSTATS.com'></a>   
+	 				</div>
+	 			</div>    
+	 			<div id="languagewrapper" style="background-color:#B0B0B0;text-align='center';margin-top:12px;float:left;">	 				
+	 				<img src='http://footballgu.cluster003.ovh.net/img/flags/png/uk.png' width="18" height="12" alt='English'>
+	 				&nbsp;
+	 				<a href="http://fr.soccerstats.com"><img src='http://footballgu.cluster003.ovh.net/img/flags/png/fra.png' width="18" height="12" alt='France'></a>
+	 			</div>
+	 	</div>					
+	 	<div class="sevencolumns" style="background-color:#B0B0B0;">
+	 			<a class="button button-primary" style="padding: 0 6px;" href="leagues.asp">LEAGUES</a>
+	 			<a class="button button-primary" style="padding: 0 6px;" href="matches.asp">MATCHES</a>
+	 			
+	 				<a class="button button-primary" style="padding: 0 6px;" href="livescores.asp">LIVE SCORES</a>
+	 			
+	 			<div id="dsearch" style="height:40px;margin-right:30px;float:right;">
+	 			<form style="margin:0;" method="post" action="searchteams.asp">
+	 			<input style="border:none;width:90px;height:20px;padding-left: 5px;text-color:gray;background-color:#eeeeee;" name="searchstring" type="text" maxlength="20" value="Search team..." onfocus="if (this.value == 'Search team...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search team...';}" />
+	 			<input style="border:none;width:25px;height:20px;background-color:#eeeeee;" type="submit" class="submit" value="Go " />
+	 			</form>
+	 			</div>	 				
+	 	</div>	 					
+	 </div>
+	 
+	 
+	 
+	 <div class="row" style="background-color:#DEDEDE;">
+ 		<div class="twelve columns">
+	 		&nbsp;
+			<a class="button" href="latest.asp?league=argentina" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/ar.png" alt="Argentina" width="12" height="8" style="margin-right:3px;">ar</a>			
+			<a class="button" href="latest.asp?league=belgium" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/be.png" alt="Belgium" width="12" height="8" style="margin-right:3px;">be</a>			
+			<a class="button" href="latest.asp?league=brazil" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/br.png" alt="Brazil" width="12" height="8" style="margin-right:3px;">br</a>			
+			<a class="button" href="latest.asp?league=germany" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/de.png" alt="Germany" width="12" height="8" style="margin-right:3px;">de</a>			
+			<a class="button" href="latest.asp?league=denmark" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/dk.png" alt="Denmark" width="12" height="8" style="margin-right:3px;">dk</a>			
+			<a class="button" href="latest.asp?league=england" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/england.png" alt="England" width="12" height="8" style="margin-right:3px;">en</a>			
+			<a class="button" href="latest.asp?league=england2" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/england.png" alt="England" width="12" height="8" style="margin-right:3px;">e2</a>			
+			<a class="button" href="latest.asp?league=england3" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/england.png" alt="England" width="12" height="8" style="margin-right:3px;">e3</a>			
+			<a class="button" href="latest.asp?league=england4" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/england.png" alt="England" width="12" height="8" style="margin-right:3px;">e4</a>			
+			<a class="button" href="latest.asp?league=spain" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/es.png" alt="Spain" width="12" height="8" style="margin-right:3px;">es</a>			
+			<a class="button" href="latest.asp?league=france" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/fr.png" alt="France" width="12" height="8" style="margin-right:3px;">fr</a>			
+			<a class="button" href="latest.asp?league=italy" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/it.png" alt="Italy" width="12" height="8" style="margin-right:3px;">it</a>			
+			<a class="button" href="latest.asp?league=holland" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/nl.png" alt="Netherlands" width="12" height="8" style="margin-right:3px;">nl</a>			
+			<a class="button" href="latest.asp?league=norway" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/no.png" alt="Norway" width="12" height="8" style="margin-right:3px;">no</a>			
+			<a class="button" href="latest.asp?league=portugal" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/pt.png" alt="Portugal" width="12" height="8" style="margin-right:3px;">pt</a>			
+			<a class="button" href="latest.asp?league=russia" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/ru.png" alt="Russia" width="12" height="8" style="margin-right:3px;">ru</a>			
+			<a class="button" href="latest.asp?league=scotland" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/scotland.png" alt="Scotland" width="12" height="8" style="margin-right:3px;">sc</a>			
+			<a class="button" href="latest.asp?league=sweden" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/se.png" alt="Sweden" width="12" height="8" style="margin-right:3px;">se</a>			
+			<a class="button" href="latest.asp?league=turkey" style="background-color:#CACACA;margin-top:4px;margin-bottom:4px;"><img src="http://footballgu.cluster003.ovh.net/img/flags/tr.png" alt="Turkey" width="12" height="8" style="margin-right:3px;">tr</a>			
+			<a class="button" href="leagues.asp" style="margin-top:0px;background-color:#CACACA;">More</a>
+		</div>
+	 </div>
+	 
+
+	
+
+
+<!-- AdBanner -->    
+	
+	<div id="container-ad" style="width:100%;height:90px;margin-top:6px;margin-bottom:6px;text-align:center;clear:both;">	
+
+<script language="javascript"><!--
+document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn/3.0/4482/5805997/0/225/ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+//-->
+</script><noscript><a href="http://adserver.adtech.de/adlink/3.0/4482/5805997/0/225/ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv/3.0/4482/5805997/0/225/ADTECH;loc=300;grp=[group]" border="0" width="728" height="90"></a></noscript>
+	
+	</div>	
+
+<!-- League navigation -->
+<div class="row" style="background-color:#DEDEDE;">
+
+
+	<div class="four columns" style="background-color:#DEDEDE;margin:0;">
+			<!-- League title -->
+			<table border='0' cellspacing='0' cellpadding='0'>
+			<tr>
+			<td height='14' width='25' align='center'>
+			      
+			<img src='http://footballgu.cluster003.ovh.net/img/flags/england.png'>
+			</td>
+			<td height='21' valign='top'>
+			<h1>Premier League</h1>
+			</td></tr>
+			<tr>
+			<td width='20'></td>
+			<td height='13' align='left' valign='middle' colspan='2'>
+			<!-- England - divisions: -->
+			<font color='gray'>Divisions:</font>
+			&nbsp;<a href='latest.asp?league=england'><font color='blue'><b>1</b></font></a>&nbsp;<a href='latest.asp?league=england2'><font color='gray'>2</font></a>&nbsp;<a href='latest.asp?league=england3'><font color='gray'>3</font></a>&nbsp;<a href='latest.asp?league=england4'><font color='gray'>4</font></a>&nbsp;<a href='latest.asp?league=england5'><font color='gray'>5</font></a>&nbsp;<a href='latest.asp?league=england6'><font color='gray'>6</font></a>&nbsp;<a href='latest.asp?league=england7'><font color='gray'>7</font></a>&nbsp;<a href='latest.asp?league=england8'><font color='gray'>8</font></a>&nbsp;<a href='latest.asp?league=england9'><font color='gray'>9</font></a>&nbsp;<a href='latest.asp?league=england10'><font color='gray'>10</font></a>&nbsp;<a href='latest.asp?league=england11'><font color='gray'>11</font></a>&nbsp;<a href='latest.asp?league=england12'><font color='gray'>12</font></a>      
+			</td></tr>        
+			</table>
+	</div>
+	
+
+	
+	<div class="four columns" style="background-color:#DEDEDE;height:35px;margin-top:1px;">
+        	<!-- Seasons combo -->
+        <form name="SeasonMenu1" target="_top" class="leaguelist">
+        
+        
+            <font size='xx-small' bgcolor='#FFCC66'>
+            
+            <select name="countryLeagueSeason" maxsize="7" onChange="location.href=this.options[this.selectedIndex].value" class="leaguelist" style="margin-top:9px;">
+                          
+                <option value="latest.asp?league=england">2015/16</option>
+            
+                    <option value="latest.asp?league=england_2015"
+                    
+                    >2014/15</option>
+            
+                    <option value="latest.asp?league=england_2014"
+                    
+                    >2013/14</option>
+            
+                    <option value="latest.asp?league=england_2013"
+                    
+                    >2012/13</option>
+            
+            </select>
+            </font>
+
+	</font>
+
+	&nbsp;
+	
+                <font size='x-small'>
+                <select name="countryLeague" maxsize="20" onChange="location.href=this.options[this.selectedIndex].value" class="leaguelist" style="margin-top:9px;">
+                <option value="#">
+                England              
+                </option>
+
+            <option value="#">------------</option>
+            <option value='leagueview.asp?league=cleague'>Champ. League</option>
+            <option value='leagueview.asp?league=uefa'>Europa League</option>
+            <option value='leagueview.asp?league=copaamerica'>Copa America</option>
+            <option value='leagueview.asp?league=confedcup'>Confed. Cup</option>
+            <option value='leagueview.asp?league=eurou19'>Euro U19</option>
+            <option value='leagueview.asp?league=fifa'>World Cup 2014</option>
+            <option value='leagueview.asp?league=fifaw'>World Cup Women</option>
+            <option value='leagueview.asp?league=fifaqual'>World Cup Qual.</option>
+            <option value='leagueview.asp?league=fifau20'>World Cup U20</option>
+            <option value='leagueview.asp?league=euro'>Euro</option>
+            <option value='leagueview.asp?league=euroqual'>Euro Qualifiers</option>
+            <option value="#">------------</option>
+         
+         
+         <option value='latest.asp?league=albania'>Albania</option>
+<option value='latest.asp?league=algeria'>Algeria</option>
+<option value='latest.asp?league=argentina'>Argentina</option>
+<option value='latest.asp?league=argentina2'>Argentina2</option>
+<option value='latest.asp?league=argentina3'>Argentina3</option>
+<option value='latest.asp?league=armenia'>Armenia</option>
+<option value='latest.asp?league=australia'>Australia</option>
+<option value='latest.asp?league=austria'>Austria</option>
+<option value='latest.asp?league=austria2'>Austria2</option>
+<option value='latest.asp?league=austria3'>Austria3</option>
+<option value='latest.asp?league=austria4'>Austria4</option>
+<option value='latest.asp?league=austria5'>Austria5</option>
+<option value='latest.asp?league=azerbaidjan'>Azerbaidjan</option>
+<option value='latest.asp?league=belarus'>Belarus</option>
+<option value='latest.asp?league=belgium'>Belgium</option>
+<option value='latest.asp?league=belgium2'>Belgium2</option>
+<option value='latest.asp?league=belgium3'>Belgium3</option>
+<option value='latest.asp?league=belgium4'>Belgium4</option>
+<option value='latest.asp?league=bosnia'>Bosnia</option>
+<option value='latest.asp?league=brazil'>Brazil</option>
+<option value='latest.asp?league=brazil2'>Brazil2</option>
+<option value='latest.asp?league=brazil3'>Brazil3</option>
+<option value='latest.asp?league=brazil4'>Brazil4</option>
+<option value='latest.asp?league=bulgaria'>Bulgaria</option>
+<option value='latest.asp?league=chile'>Chile</option>
+<option value='latest.asp?league=chile2'>Chile2</option>
+<option value='latest.asp?league=colombia'>Colombia</option>
+<option value='latest.asp?league=costarica'>CostaRica</option>
+<option value='latest.asp?league=croatia'>Croatia</option>
+<option value='latest.asp?league=cyprus'>Cyprus</option>
+<option value='latest.asp?league=czechrepublic'>CzechRepublic</option>
+<option value='latest.asp?league=czechrepublic2'>CzechRepublic2</option>
+<option value='latest.asp?league=denmark'>Denmark</option>
+<option value='latest.asp?league=denmark2'>Denmark2</option>
+<option value='latest.asp?league=ecuador'>Ecuador</option>
+<option value='latest.asp?league=egypt'>Egypt</option>
+<option value='latest.asp?league=elsalvador'>ElSalvador</option>
+<option value='latest.asp?league=england'>England</option>
+<option value='latest.asp?league=england2'>England2</option>
+<option value='latest.asp?league=england3'>England3</option>
+<option value='latest.asp?league=england4'>England4</option>
+<option value='latest.asp?league=england5'>England5</option>
+<option value='latest.asp?league=england6'>England6</option>
+<option value='latest.asp?league=england7'>England7</option>
+<option value='latest.asp?league=england8'>England8</option>
+<option value='latest.asp?league=england9'>England9</option>
+<option value='latest.asp?league=england10'>England10</option>
+<option value='latest.asp?league=england11'>England11</option>
+<option value='latest.asp?league=england12'>England12</option>
+<option value='latest.asp?league=estonia'>Estonia</option>
+<option value='latest.asp?league=faroeislands'>FaroeIslands</option>
+<option value='latest.asp?league=finland'>Finland</option>
+<option value='latest.asp?league=finland2'>Finland2</option>
+<option value='latest.asp?league=finland3'>Finland3</option>
+<option value='latest.asp?league=finland4'>Finland4</option>
+<option value='latest.asp?league=finland5'>Finland5</option>
+<option value='latest.asp?league=finland6'>Finland6</option>
+<option value='latest.asp?league=france'>France</option>
+<option value='latest.asp?league=france2'>France-L2</option>
+<option value='latest.asp?league=france3'>France-L3</option>
+<option value='latest.asp?league=georgia'>Georgia</option>
+<option value='latest.asp?league=germany'>Germany</option>
+<option value='latest.asp?league=germany2'>Germany2</option>
+<option value='latest.asp?league=germany3'>Germany3</option>
+<option value='latest.asp?league=germany4'>Germany4</option>
+<option value='latest.asp?league=germany5'>Germany5</option>
+<option value='latest.asp?league=germany6'>Germany6</option>
+<option value='latest.asp?league=germany7'>Germany7</option>
+<option value='latest.asp?league=germany8'>Germany8</option>
+<option value='latest.asp?league=greece'>Greece</option>
+<option value='latest.asp?league=greece2'>Greece2</option>
+<option value='latest.asp?league=guatemala'>Guatemala</option>
+<option value='latest.asp?league=holland'>Holland</option>
+<option value='latest.asp?league=holland2'>Holland2</option>
+<option value='latest.asp?league=holland3'>Holland3</option>
+<option value='latest.asp?league=holland4'>Holland4</option>
+<option value='latest.asp?league=honduras'>Honduras</option>
+<option value='latest.asp?league=hungary'>Hungary</option>
+<option value='latest.asp?league=iceland'>Iceland</option>
+<option value='latest.asp?league=india'>India</option>
+<option value='latest.asp?league=ireland'>Ireland</option>
+<option value='latest.asp?league=ireland2'>Ireland2</option>
+<option value='latest.asp?league=israel'>Israel</option>
+<option value='latest.asp?league=italy'>Italy</option>
+<option value='latest.asp?league=italy2'>Italy2</option>
+<option value='latest.asp?league=italy3'>Italy3</option>
+<option value='latest.asp?league=italy4'>Italy4</option>
+<option value='latest.asp?league=italy5'>Italy5</option>
+<option value='latest.asp?league=jamaica'>Jamaica</option>
+<option value='latest.asp?league=japan'>Japan</option>
+<option value='latest.asp?league=japan2'>Japan2</option>
+<option value='latest.asp?league=jordan'>Jordan</option>
+<option value='latest.asp?league=latvia'>Latvia</option>
+<option value='latest.asp?league=lithuania'>Lithuania</option>
+<option value='latest.asp?league=luxembourg'>Luxembourg</option>
+<option value='latest.asp?league=malaysia'>Malaysia</option>
+<option value='latest.asp?league=malta'>Malta</option>
+<option value='latest.asp?league=mexico'>Mexico</option>
+<option value='latest.asp?league=mexico2'>Mexico2</option>
+<option value='latest.asp?league=moldova'>Moldova</option>
+<option value='latest.asp?league=montenegro'>Montenegro</option>
+<option value='latest.asp?league=morocco'>Morocco</option>
+<option value='latest.asp?league=northernireland'>NorthernIreland</option>
+<option value='latest.asp?league=norway'>Norway</option>
+<option value='latest.asp?league=norway2'>Norway2</option>
+<option value='latest.asp?league=paraguay'>Paraguay</option>
+<option value='latest.asp?league=poland'>Poland</option>
+<option value='latest.asp?league=poland2'>Poland2</option>
+<option value='latest.asp?league=portugal'>Portugal</option>
+<option value='latest.asp?league=portugal2'>Portugal2</option>
+<option value='latest.asp?league=romania'>Romania</option>
+<option value='latest.asp?league=russia'>Russia</option>
+<option value='latest.asp?league=russia2'>Russia2</option>
+<option value='latest.asp?league=scotland'>Scotland</option>
+<option value='latest.asp?league=scotland2'>Scotland2</option>
+<option value='latest.asp?league=scotland3'>Scotland3</option>
+<option value='latest.asp?league=scotland4'>Scotland4</option>
+<option value='latest.asp?league=serbia'>Serbia</option>
+<option value='latest.asp?league=singapore'>Singapore</option>
+<option value='latest.asp?league=slovakia'>Slovakia</option>
+<option value='latest.asp?league=slovenia'>Slovenia</option>
+<option value='latest.asp?league=southafrica'>SouthAfrica</option>
+<option value='latest.asp?league=southkorea'>SouthKorea</option>
+<option value='latest.asp?league=spain'>Spain</option>
+<option value='latest.asp?league=spain2'>Spain2</option>
+<option value='latest.asp?league=spain3'>Spain3</option>
+<option value='latest.asp?league=spain4'>Spain4</option>
+<option value='latest.asp?league=spain5'>Spain5</option>
+<option value='latest.asp?league=spain6'>Spain6</option>
+<option value='latest.asp?league=sweden'>Sweden</option>
+<option value='latest.asp?league=sweden2'>Sweden2</option>
+<option value='latest.asp?league=switzerland'>Switzerland</option>
+<option value='latest.asp?league=switzerland2'>Switzerland2</option>
+<option value='latest.asp?league=turkey'>Turkey</option>
+<option value='latest.asp?league=turkey2'>Turkey2</option>
+<option value='latest.asp?league=ukraine'>Ukraine</option>
+<option value='latest.asp?league=ukraine2'>Ukraine2</option>
+<option value='latest.asp?league=uruguay'>Uruguay</option>
+<option value='latest.asp?league=usa'>USA</option>
+<option value='latest.asp?league=usa2'>USA2</option>
+<option value='latest.asp?league=uzbekistan'>Uzbekistan</option>
+<option value='latest.asp?league=venezuela'>Venezuela</option>
+<option value='latest.asp?league=wales'>Wales</option>
+                       
+            </select>
+            </font>
+    
+
+                
+            
+    </form>
+
+
+
+	</div>	
+	
+
+
+    <!-- stats list -->
+    <div class="fourcolumns"  id="stats_list" style="background-color:#DEDEDE;margin:0;text-align:center;height:35px;float:left;">
+        <form name="TeamsMenu1" style="background-color:#DEDEDE;" target="_top">
+            <font size='1' bgcolor='#FFCC66'>
+            <select name="statstable" onChange="location.href=this.options[this.selectedIndex].value" style="margin-top:9px;" class="statslist">
+            <option value="#">Select stats ... </option>
+            
+                <option value="widetable.asp?league=england">Wide table</option>
+                  
+            <option value="table.asp?league=england&tid=a">Matches by round</option>
+            <option value="results.asp?league=england">All results</option>
+
+                <option value="table.asp?league=england&tid=v">Results grid</option>
+
+            <option value="table.asp?league=england&tid=c">Over/Under</option>
+            <option value="formtable.asp?league=england">Form tables</option>
+            <option value="table.asp?league=england&tid=4">Frequent scores</option>
+
+            <option value="table.asp?league=england&tid=5">Halftime scores</option>
+
+            <option value="table.asp?league=england&tid=d">Goals per game</option>
+            <option value="table.asp?league=england&tid=e">Goal margins</option>
+            <option value="table.asp?league=england&tid=f">Scored/conceded</option>
+            
+            <option value="table.asp?league=england&tid=p">Both teams scored</option>
+
+            <option value="table.asp?league=england&tid=g">Streaks & sequences</option>
+            <option value="table.asp?league=england&tid=1">Home advantage</option>
+
+            <option value="scorers.asp?league=england">Scorers table</option>
+
+            <option value="attendance.asp?league=england">Attendance table</option>
+
+            <option value="table.asp?league=england&tid=h">Leading at halftime</option>
+            <option value="table.asp?league=england&tid=i">Losing at halftime</option>
+            <option value="table.asp?league=england&tid=j">Goals per 10 min.</option>
+            <option value="table.asp?league=england&tid=k">Goals per 15 min.</option>
+            <option value="table.asp?league=england&tid=l">Team scored first</option>
+            <option value="table.asp?league=england&tid=m">Opponent scored first</option>            
+            <option value="table.asp?league=england&tid=2">Opening goal scored</option>            
+            <option value="table.asp?league=england&tid=3">Opening goal conc.</option>            
+            
+            
+            <option value="table.asp?league=england&tid=t">Lead durations</option>
+            <option value="table.asp?league=england&tid=u">Goal types</option>                       
+            <option value="table.asp?league=england&tid=w">Lead-taking goals</option>
+            <option value="table.asp?league=england&tid=x">Equalizers</option>
+            
+            
+            <option value="table.asp?league=england&tid=n">HT/FT home table</option>
+            <option value="table.asp?league=england&tid=o">HT/FT away table</option> 
+
+            </select>
+            </font>
+
+    
+         &nbsp;        
+    
+        <!-- team list -->
+        
+            <!-- listbox_teams -->
+            
+                <font size='x-small' bgcolor='#F0F0F0'>
+                <select name="Teamnames" onChange="location.href=this.options[this.selectedIndex].value" style="margin-top:9px;" class="statslist">
+                <option value="#">Select team ... </option>
+                <option value='team.asp?league=england&teamid=3'>Arsenal</option>
+<option value='team.asp?league=england&teamid=2'>Aston Villa</option>
+<option value='team.asp?league=england&teamid=1'>Bournemouth</option>
+<option value='team.asp?league=england&teamid=5'>Chelsea</option>
+<option value='team.asp?league=england&teamid=16'>Crystal Palace</option>
+<option value='team.asp?league=england&teamid=7'>Everton</option>
+<option value='team.asp?league=england&teamid=9'>Leicester City</option>
+<option value='team.asp?league=england&teamid=18'>Liverpool</option>
+<option value='team.asp?league=england&teamid=20'>Manchester City</option>
+<option value='team.asp?league=england&teamid=11'>Manchester Utd</option>
+<option value='team.asp?league=england&teamid=13'>Newcastle Utd</option>
+<option value='team.asp?league=england&teamid=15'>Norwich City</option>
+<option value='team.asp?league=england&teamid=14'>Southampton</option>
+<option value='team.asp?league=england&teamid=17'>Stoke City</option>
+<option value='team.asp?league=england&teamid=10'>Sunderland</option>
+<option value='team.asp?league=england&teamid=6'>Swansea City</option>
+<option value='team.asp?league=england&teamid=12'>Tottenham</option>
+<option value='team.asp?league=england&teamid=8'>Watford</option>
+<option value='team.asp?league=england&teamid=19'>West Bromwich</option>
+<option value='team.asp?league=england&teamid=4'>West Ham Utd</option>
+         
+                </select>
+                </font>
+            </form>
+        
+    </div>
+
+
+
+
+	
+</div> <!-- end of row -->	
+	
+
+
+
+
+
+
+<div class="row" style="background-color:#DEDEDE;">
+	<div class="five columns" style="background-color:#DEDEDE;height:35px;margin-left:3px;">
+		<!-- league menu -->
+                    	
+                    	<a class="button" style="background-color:#CACACA;" href="latest.asp?league=england" title="latest results and table">Summary</a>
+                    	
+                    	<a class="button" style="background-color:#CACACA;" href="table.asp?league=england&tid=a" title="matches by round">Matches</a>
+                    	
+                    	<a class="button" style="background-color:#CACACA;" href="trends.asp?league=england" title="over, under, average goals, total goals per game">Goals</a>
+                    	
+                			<a class="button" style="background-color:#CACACA;" href="timing.asp?league=england" title="goals per time segment, halftime table">Timing</a>
+                			
+                			<a class="button" style="background-color:#CACACA;" href="firstgoal.asp?league=england" title="time of first goal scored">First</a>                
+                		
+                			<a class="button" style="background-color:#CACACA;" href="h2h_selection.asp?league=england" title="Head-to-head team stats">H2H</a>
+                		   
+	</div>
+	
+	<!-- League comments bar -->
+     <div class="seven columns"  id="lctext" style="background-color:#DEDEDE;margin:0;text-align:center;vertical-align:bottom;height:35px;float:left;">
+        <!-- Html ticker (2) -->
+        
+                    <iframe bgcolor="#DEDEDE" frameborder="0" src="team_comments.asp?league=england" width="100%" height="26" style="margin-top:6px;" scrolling="none"></iframe>
+        
+        <!-- end of html ticker (2) -->
+    </div>
+
+
+</div>
+
+
+	
+	<div class="row">
+		<div class="twelve columns" style="text-align:center;margin-top:5px;">
+		
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- LU_728x15 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:15px"
+     data-ad-client="ca-pub-5851561819027101"
+     data-ad-slot="9711885476"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+		</div>
+	</div>
+<div class='row'><div class='three columns'><br>
+<script language="javascript"><!--
+document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn/3.0/4482/5805999/0/154/ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');
+//-->
+</script><noscript><a href="http://adserver.adtech.de/adlink/3.0/4482/5805999/0/154/ADTECH;loc=300;grp=[group]" target="_blank"><img src="http://adserver.adtech.de/adserv/3.0/4482/5805999/0/154/ADTECH;loc=300;grp=[group]" border="0" width="160" height="600"></a></noscript>
+</div><div class='nine columns'><br>
+<table width='100%' cellspacing='5' cellpadding='5' border='0'>
+<tr>
+<td align='center' width='50%' valign='top'>
+<table id='btable'>
+<tr class='even'><td height='25' colspan='4'>&nbsp;</td>
+<td align='center'><span title='
+Halftime score
+'>&nbsp;
+HT
+&nbsp;</span></td>
+<td align='center'><span title='
+Over 2.5 goals
+'>
+2.5+
+</span></td>
+<td align='center'><span title='
+Both teams scored
+'>
+BTS
+</span></td>
+<td align='center'><span title='
+Total goals
+'>
+TG
+</span></td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Manchester Utd - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Everton - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>4 - 2</b></font>
+</td>
+<td align='center'>
+(3-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+6
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 3</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 8 Aug. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Chelsea - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 9 Aug. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Arsenal - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 9 Aug. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Newcastle Utd - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 9 Aug. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Stoke City - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 10 Aug. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;West Bromwich - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Fri. 14 Aug. </font></td>
+<td align='center'><font color='green' size='1'>18:45</font></td>
+<td>&nbsp;Aston Villa - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Southampton - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Tottenham - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Watford - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 15 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Swansea City - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 16 Aug. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Crystal Palace - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 16 Aug. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 17 Aug. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;Liverpool - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Manchester Utd - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 4</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+7
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 22 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 23 Aug. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;West Bromwich - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 3</b></font>
+</td>
+<td align='center'>
+(1-3)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 23 Aug. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 23 Aug. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 2</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 24 Aug. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;Arsenal - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Newcastle Utd - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Chelsea - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 29 Aug. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Tottenham - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 30 Aug. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Southampton - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 30 Aug. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Everton - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Watford - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Bromwich - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Arsenal - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Sep. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Manchester Utd - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 13 Sep. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Sunderland - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 13 Sep. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 14 Sep. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;West Ham Utd - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Chelsea - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Swansea City - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Newcastle Utd - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Sep. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Manchester City - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(1-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 20 Sep. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Tottenham - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 20 Sep. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 3</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 20 Sep. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Liverpool - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Tottenham - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>4 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 5</b></font>
+</td>
+<td align='center'>
+(1-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+7
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Southampton - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester Utd - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 2</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Sep. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Newcastle Utd - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 27 Sep. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Sep. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;West Bromwich - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 3</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Crystal Palace - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>6 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+7
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 3 Oct. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Chelsea - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 3</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 4 Oct. </font></td>
+<td align='center'><font color='green' size='1'>12:30</font></td>
+<td>&nbsp;Everton - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 4 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 4 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Arsenal - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 0</b></font>
+</td>
+<td align='center'>
+(3-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>11:45</font></td>
+<td>&nbsp;Tottenham - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Southampton - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Bromwich - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Chelsea - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 3</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Everton - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>5 - 1</b></font>
+</td>
+<td align='center'>
+(4-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+6
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 17 Oct. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Watford - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 18 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>6 - 2</b></font>
+</td>
+<td align='center'>
+(3-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+8
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 19 Oct. </font></td>
+<td align='center'><font color='green' size='1'>19:00</font></td>
+<td>&nbsp;Swansea City - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 24 Oct. </font></td>
+<td align='center'><font color='green' size='1'>16:30</font></td>
+<td>&nbsp;Arsenal - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 25 Oct. </font></td>
+<td align='center'><font color='green' size='1'>12:00</font></td>
+<td>&nbsp;Sunderland - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 25 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:05</font></td>
+<td>&nbsp;Manchester Utd - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 25 Oct. </font></td>
+<td align='center'><font color='green' size='1'>14:05</font></td>
+<td>&nbsp;Bournemouth - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 5</b></font>
+</td>
+<td align='center'>
+(1-3)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+6
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 25 Oct. </font></td>
+<td align='center'><font color='green' size='1'>16:15</font></td>
+<td>&nbsp;Liverpool - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Chelsea - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 3</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 3</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 31 Oct. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 1 Nov. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Everton - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>6 - 2</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+8
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 1 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Southampton - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 2 Nov. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Tottenham - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Bournemouth - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Norwich City - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Ham Utd - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 Nov. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Stoke City - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 8 Nov. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Aston Villa - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 8 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Liverpool - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 8 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Arsenal - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Watford - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 2</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 2</b></font>
+</td>
+<td align='center'>
+(2-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>4 - 0</b></font>
+</td>
+<td align='center'>
+(3-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 1</b></font>
+</td>
+<td align='center'>
+(2-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 21 Nov. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Manchester City - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 4</b></font>
+</td>
+<td align='center'>
+(1-3)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 22 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Tottenham - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>4 - 1</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 23 Nov. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Crystal Palace - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Stoke City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Everton</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+6
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Aston Villa - Watford</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 3</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+5
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Newcastle Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>5 - 1</b></font>
+</td>
+<td align='center'>
+(3-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+6
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Southampton</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 28 Nov. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Leicester City - Manchester Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 29 Nov. </font></td>
+<td align='center'><font color='green' size='1'>12:00</font></td>
+<td>&nbsp;Tottenham - Chelsea</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 29 Nov. </font></td>
+<td align='center'><font color='green' size='1'>14:05</font></td>
+<td>&nbsp;West Ham Utd - West Bromwich</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 29 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:15</font></td>
+<td>&nbsp;Liverpool - Swansea City</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 29 Nov. </font></td>
+<td align='center'><font color='green' size='1'>16:15</font></td>
+<td>&nbsp;Norwich City - Arsenal</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Stoke City - Manchester City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(2-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Arsenal - Sunderland</td>
+<td align='center' width='45'>
+<font color='black'><b>3 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+4
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Tottenham</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(1-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Norwich City</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(1-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - West Ham Utd</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+0
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Leicester City</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 3</b></font>
+</td>
+<td align='center'>
+(0-2)
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+3
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Aston Villa</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-1)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Chelsea - Bournemouth</td>
+<td align='center' width='45'>
+<font color='black'><b>0 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+1
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 6 Dec. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Newcastle Utd - Liverpool</td>
+<td align='center' width='45'>
+<font color='black'><b>2 - 0</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 7 Dec. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Everton - Crystal Palace</td>
+<td align='center' width='45'>
+<font color='black'><b>1 - 1</b></font>
+</td>
+<td align='center'>
+(0-0)
+</td>
+<td align='center'>
+-
+</td>
+<td align='center'>
++
+</td>
+<td align='center'>
+2
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Norwich City - Everton</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=15&t2id=7' title='Norwich City vs Everton'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Ham Utd - Stoke City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=4&t2id=17' title='West Ham Utd vs Stoke City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Watford</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=10&t2id=8' title='Sunderland vs Watford'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Swansea City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=20&t2id=6' title='Manchester City vs Swansea City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Southampton</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=16&t2id=14' title='Crystal Palace vs Southampton'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Bournemouth - Manchester Utd</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=1&t2id=11' title='Bournemouth vs Manchester Utd'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 13 Dec. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Aston Villa - Arsenal</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=2&t2id=3' title='Aston Villa vs Arsenal'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 13 Dec. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Liverpool - West Bromwich</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=18&t2id=19' title='Liverpool vs West Bromwich'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 13 Dec. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Tottenham - Newcastle Utd</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=12&t2id=13' title='Tottenham vs Newcastle Utd'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 14 Dec. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Leicester City - Chelsea</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=9&t2id=5' title='Leicester City vs Chelsea'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Stoke City - Crystal Palace</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=17&t2id=16' title='Stoke City vs Crystal Palace'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Bournemouth</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=19&t2id=1' title='West Bromwich vs Bournemouth'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Sunderland</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=5&t2id=10' title='Chelsea vs Sunderland'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - Leicester City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=7&t2id=9' title='Everton vs Leicester City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - Norwich City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=11&t2id=15' title='Manchester Utd vs Norwich City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Tottenham</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=14&t2id=12' title='Southampton vs Tottenham'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Newcastle Utd - Aston Villa</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=13&t2id=2' title='Newcastle Utd vs Aston Villa'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 20 Dec. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Watford - Liverpool</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=8&t2id=18' title='Watford vs Liverpool'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 20 Dec. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Swansea City - West Ham Utd</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=6&t2id=4' title='Swansea City vs West Ham Utd'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 21 Dec. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Arsenal - Manchester City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=3&t2id=20' title='Arsenal vs Manchester City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Stoke City - Manchester Utd</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=17&t2id=11' title='Stoke City vs Manchester Utd'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Tottenham - Norwich City</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=12&t2id=15' title='Tottenham vs Norwich City'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - West Bromwich</td>
+<td align='center' width='45'>
+<a href='h2h.asp?league=england&t1id=6&t2id=19' title='Swansea City vs West Bromwich'><img src='img/staticon.png' alt=''></a>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Liverpool - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Aston Villa - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Newcastle Utd - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 26 Dec. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Southampton - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Norwich City - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;West Ham Utd - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Arsenal - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 28 Dec. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Manchester Utd - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 29 Dec. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Leicester City - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 30 Dec. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Sunderland - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;West Ham Utd - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Norwich City - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Arsenal - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Jan. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Watford - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 3 Jan. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Crystal Palace - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 3 Jan. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Everton - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 12 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Bournemouth - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 12 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Newcastle Utd - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 12 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Swansea City - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 12 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Aston Villa - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Chelsea - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Manchester City - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Southampton - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Stoke City - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Tottenham - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 13 Jan. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Liverpool - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Tottenham - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Jan. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;Aston Villa - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 17 Jan. </font></td>
+<td align='center'><font color='green' size='1'>14:05</font></td>
+<td>&nbsp;Liverpool - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 17 Jan. </font></td>
+<td align='center'><font color='green' size='1'>16:15</font></td>
+<td>&nbsp;Stoke City - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Mon. 18 Jan. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Swansea City - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>12:45</font></td>
+<td>&nbsp;Norwich City - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Jan. </font></td>
+<td align='center'><font color='green' size='1'>17:30</font></td>
+<td>&nbsp;West Ham Utd - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 24 Jan. </font></td>
+<td align='center'><font color='green' size='1'>13:30</font></td>
+<td>&nbsp;Everton - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 24 Jan. </font></td>
+<td align='center'><font color='green' size='1'>16:00</font></td>
+<td>&nbsp;Arsenal - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Norwich City - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;West Ham Utd - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Sunderland - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Watford - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Leicester City - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Arsenal - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;West Bromwich - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Crystal Palace - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 2 Feb. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Manchester Utd - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 3 Feb. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Everton - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Liverpool - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Tottenham - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Stoke City - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Aston Villa - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 6 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Norwich City - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Aston Villa - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Arsenal - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 13 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Tottenham - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Ham Utd - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Liverpool - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 27 Feb. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Stoke City - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Norwich City - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Sunderland - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;West Ham Utd - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Leicester City - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Aston Villa - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Bournemouth - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Arsenal - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Liverpool - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Tue. 1 Mar. </font></td>
+<td align='center'><font color='green' size='1'>20:00</font></td>
+<td>&nbsp;Manchester Utd - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Wed. 2 Mar. </font></td>
+<td align='center'><font color='green' size='1'>19:45</font></td>
+<td>&nbsp;Stoke City - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Tottenham - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 5 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Liverpool - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Ham Utd - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Sunderland - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Stoke City - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester Utd - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Bournemouth - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Leicester City - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Aston Villa - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Arsenal - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 12 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Norwich City - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Southampton - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Watford - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Tottenham - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Swansea City - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Newcastle Utd - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Manchester City - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Everton - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Chelsea - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;West Bromwich - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 19 Mar. </font></td>
+<td align='center'><font color='green' size='1'>15:00</font></td>
+<td>&nbsp;Crystal Palace - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester Utd - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Arsenal - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 2 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Southampton - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Watford - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Tottenham - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 9 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Swansea City - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Newcastle Utd - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Arsenal - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Bromwich - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Chelsea - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester Utd - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 16 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Everton - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Tottenham - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 23 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Southampton - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Swansea City - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Bromwich - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester Utd - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Everton - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Chelsea - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Arsenal - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Watford - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 30 Apr. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Newcastle Utd - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Norwich City - Manchester Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Ham Utd - Swansea City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Sunderland - Chelsea</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester City - Arsenal</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Leicester City - Everton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Crystal Palace - Stoke City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Aston Villa - Newcastle Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Bournemouth - West Bromwich</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Liverpool - Watford</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sat. 7 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Tottenham - Southampton</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr><td colspan='4' height='10'></td></tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Chelsea - Leicester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Watford - Sunderland</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Swansea City - Manchester City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Stoke City - West Ham Utd</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Southampton - Crystal Palace</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Newcastle Utd - Tottenham</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Everton - Norwich City</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Arsenal - Aston Villa</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;West Bromwich - Liverpool</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+<tr class='odd'>
+
+<td align='right'><font color='green'>Sun. 15 May. </font></td>
+<td align='center'><font color='green' size='1'>14:00</font></td>
+<td>&nbsp;Manchester Utd - Bournemouth</td>
+<td align='center' width='45'>
+ - 
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+<td align='center'>
+</td>
+</tr>
+</table>
+<br><br></td>
+</td></tr>
+</table>
+<br>
+<table><tr><td>
+Please note that forthcoming matches dates and times are subject to change. We are not responsible for any errors or any changes that may be made. For certain leagues, all upcoming games may not be displayed on this page. Please check the official sources for the latest match dates and the full league schedules.
+</td></tr></table>
+<br>
+</div></div>
+
+
+<div class="row">
+
+            <div class="twelve columns">
+
+
+
+
+<br>
+
+
+
+
+    <br>    
+    <table cellspacing="1" cellpadding="1" border="0" width="100%"><tr>
+    <td width="35%" valign="middle">&nbsp;&nbsp;
+    <font color="gray"><i>International edition</i></font>  
+    </td>   
+    <td width="25%">
+
+
+
+    </td>
+
+    
+        <td width="10%" align="right">&nbsp;
+        </td>
+        <td width="30%">
+        &nbsp;&nbsp;
+        <a href="http://www.gamcare.org.uk" target="_blank" class="blacklink" rel="nofollow">GamCare</a>&nbsp;     
+        </td>
+    
+
+    </tr>
+    </table>
+
+
+
+<table border="0" cellspacing="0" cellpadding="6" width="100%">
+<tr bgcolor='#DDDDDD'>
+<td align='left' width='10'></td>
+<td align='left' valign='middle' colspan='2' height='50'>
+SoccerSTATS.com provides statistics, results and live scores on the main national and international football competitions.
+Example of statistics include form tables, scores stats, statistical previews, goals scored by time segment and attendance stats. 
+</td>
+<td align='left' width='10'></td>
+</tr>
+
+<tr bgcolor='#DDDDDD'>
+<td align='left' width='10'></td>
+<td align="left">
+<a href="faq.asp" rel="nofollow" target="_top"><font color='black'>F.A.Q.</font></a>
+<br><a href="contact.asp" rel="nofollow" target="_top"><font color='black'>Contact</font></a>
+<br><a href="legal.asp#privacypolicy" target="_top" rel="nofollow"><font color='blue'>Privacy and cookies policy</font></a>
+<br><a href="legal.asp" target="_top" rel="nofollow"><font color='black'>Terms and conditions of use</font></a>
+<br>&nbsp;
+</td>
+<td align='right'>
+<table width='150' cellpadding='4' cellspacing='5'>
+<tr>
+<td width='50%' height='30' align='center' valign='middle' onclick="window.open('http://www.twitter.com/soccerstatscom','_blank');" bgcolor='#6699FF' style="font-family:arial;font-size:11px;cursor:hand;cursor:pointer;"  onMouseOver="this.style.background='#3399FF'" onMouseOut="this.style.background='#6699FF'">
+<font color='#EFEFEF'>Follow us on Twitter</font>
+</td></tr>
+<tr><td height='10'></td></tr>
+<tr>
+<td width='50%' height='30' align='center' valign='middle' onclick="window.open('https://www.facebook.com/pages/soccerstatscom/212549538806908','_blank');" bgcolor='#003399' style="font-family:arial;font-size:11px;cursor:hand;cursor:pointer;"  onMouseOver="this.style.background='#0033CC'" onMouseOut="this.style.background='#003399'">
+<font color='#EFEFEF'>Follow us on Facebook</font>
+</td>
+</tr>			
+</table>
+</td>
+<td align='left' width='10'></td>
+</tr>
+
+<tr bgcolor='#DDDDDD'><td align='left' colspan='4'>&nbsp;&nbsp;&nbsp;</td></tr>
+<tr bgcolor='#B0B0B0'>
+<td colspan='4'><br>&nbsp;&nbsp;&nbsp;&nbsp;<font color='#EFEFEF'>
+Copyright 1998-2015 SoccerSTATS.com.&nbsp;All rights reserved.</font><br>&nbsp;</td>
+</tr>
+
+<tr bgcolor='#DDDDDD'>
+<td colspan='4'>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+
+</tr>
+</table>
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68204546-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=2749989; 
+var sc_invisible=1; 
+var sc_security="80356660"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/2749989/0/80356660/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+
+<!-- Back to top button -->
+<a href="#" title="Haut de page" style="position: fixed; bottom:70px;right:30px;font-size: 14px;font-weight: bold;"><img src="img/up_icon.png"></a>
+
+
+
+
+
+<br>
+</div>
+</div>
+
+
+
+</div><!-- end of container div -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+<script>
+   if(self == top) {
+       document.documentElement.style.display = 'block'; 
+   } else {
+       top.location = self.location; 
+   }
+</script>
+
+
+
+
+
