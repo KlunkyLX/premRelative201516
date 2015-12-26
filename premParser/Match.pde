@@ -72,6 +72,16 @@ class Match {
       frstKickOff = kickOff;  // place val into glbl vrble
     }
 
+    // Debug
+    //--------------------------------------------------------------------------------//
+    // Write this file for a club if live txt cmmntry suspctd missing.
+    // Un-comment glbl vrble and flsh/ close in setup().
+    /*String suspctdClb = "Southampton";
+    if (homeTeam.equals(suspctdClb) || awayTeam.equals(suspctdClb)) {
+      writer.println(kickOff + "," + homeTeam + "," + homeScore + "," + awayScore + "," + awayTeam);
+    }*/
+    //--------------------------------------------------------------------------------//
+
     // cnstrctr enclsng crly brace
   }
 

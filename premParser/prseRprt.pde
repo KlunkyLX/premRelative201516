@@ -89,7 +89,8 @@ void addClubMtch(String rslt, String[] kickOffs, String pageID) {
   createClub(awayName, statAwayName, pageID);
 
   // Test to create a match object.
-  createMatch(pageID, homeName, awayName, homeScore, awayScore, homeWin, draw, kickOff);
+  createMatch
+    (pageID, homeName, awayName, homeScore, awayScore, homeWin, draw, kickOff);
 }  // mthd enclsng brce
 //--------------------------------------------------------------------------------//
 
@@ -309,10 +310,6 @@ void goalPrsr(String cmmntryHlf, String[] mmssExtraFrst, int trueFlse, String ma
         HashSet<Event> noGoals = new HashSet<Event>();
         noGoals.add(goal);
         events.put(goalTime, noGoals);
-
-        // Re-populate hshmp.
-        //Match match = new Match(pgeID, homeTeam, awayTeam, homeScore, awayScore, homeWin, draw, kickOff);
-        //matches.put(pgeID, match);  /// (date, evnt hshset)
       } else {  // update exstng hsh
         // Retrieve exstng hshset of event objects.
         HashSet<Event> exstngGoals = events.get(goalTime);
@@ -396,7 +393,6 @@ Date dater(String drtyDate, String hhmm) {
     hhmm = "15:00";  // all 2pms are changed to 3pm kick-offs
   }
   String strngDate = yyyy + "-" + mm + "-" + dd + " " + hhmm + ":00";
-  SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
   try {
     kickOff = sdf.parse(strngDate);
   } 

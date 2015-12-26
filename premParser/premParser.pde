@@ -52,6 +52,8 @@ int noTeams = 20;
 Table ptsTble = new Table();
 Date frstKickOff = new Date();  // assgnd by Match
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
+
+//PrintWriter writer = createWriter("C:/Users/t/version-control/premRelative201516/premParser/debugFile.csv");  // debug
 //--------------------------------------------------------------------------------//
 
 //--------------------------------------------------------------------------------//
@@ -84,6 +86,48 @@ void setup() {
     lastTime = millis();
     prseRprt(rprtPage, kickOffs);  // called in seperate tab
   }  // rprtPages itrtn enclsng brce
+  //--------------------------------------------------------------------------------//
+
+  // Debug.
+  //--------------------------------------------------------------------------------//
+  // Hardcode in any matches and events that have missing live txt cmmntry.
+
+  // Sndrlnd 0 - 1 Sthmptn
+  // Hard code missing match.
+  Date sndSthKickOff = new Date();
+  String sndSthStrngKickOff = "2015-11-07 15:00:00";
+  try {
+    sndSthKickOff = sdf.parse(sndSthStrngKickOff);
+  } 
+  catch(ParseException e) {
+    e.printStackTrace();
+  }
+  Match sndSthMatch = new Match("34686321", "Sunderland", "Southampton", 0, 1, false, false, sndSthKickOff);
+  Date sndSthKickFinish = new Date();
+  String sndSthStrngKickFinish = "2015-11-07 16:51:00";
+  try {
+    sndSthKickFinish = sdf.parse(sndSthStrngKickFinish);
+  } 
+  catch(ParseException e) {
+    e.printStackTrace();
+  }   
+  sndSthMatch.setKickFinish(sndSthKickFinish);
+  matches.put("34686321", sndSthMatch);
+
+  // Hardcode missing event/s.
+  HashSet<Event> newSndSthGoals = new HashSet<Event>();
+
+  Date sndSthGoalTime1 = new Date();
+  String sndSthStrngGoalTime1 = "2015-11-07 16:24:00";
+  try {
+    sndSthGoalTime1 = sdf.parse(sndSthStrngGoalTime1);
+  } 
+  catch(ParseException e) {
+    e.printStackTrace();
+  }
+  Event sndSthGoal1 = new Event("34686321:0-1", "34686321", sndSthGoalTime1, "00:00", "69:00", 0, 1, true, false);
+  newSndSthGoals.add(sndSthGoal1);
+  events.put(sndSthGoalTime1, newSndSthGoals);
   //--------------------------------------------------------------------------------//
 
   // loop thrgh ea event.
@@ -322,8 +366,13 @@ void setup() {
     }  // club itrtn enclsng brce
   }  // ptsTble row loop enclsng brce
 
-  //saveTable(ptsTble, league + "pstns" + fileDate + ".html", "html");  // debug
-  saveTable(ptsTble, league + "pstns" + fileDate + ".csv", "csv");
+  // Save in fldr above.
+  saveTable(ptsTble, "C:/Users/t/version-control/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
+  //--------------------------------------------------------------------------------//
+  // Debug
+  //--------------------------------------------------------------------------------//
+  //writer.flush();
+  //writer.close();
   //--------------------------------------------------------------------------------//
 
   exit();
