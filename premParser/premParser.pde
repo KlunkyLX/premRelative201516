@@ -367,7 +367,7 @@ void setup() {
   }  // ptsTble row loop enclsng brce
 
   // Save in fldr above.
-  saveTable(ptsTble, "C:/Users/t/version-control/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
+  saveTable(ptsTble, "C:/Users/trist/version-control/visualizations/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
   //--------------------------------------------------------------------------------//
   // Debug
   //--------------------------------------------------------------------------------//
