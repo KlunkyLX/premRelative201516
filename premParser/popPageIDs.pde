@@ -38,6 +38,7 @@ HashSet<String> popPageIDs() {
 
   // For brevity, hard code last season's position here.
   //--------------------------------------------------------------------------------//
+  // Teams cannot share a same position otherwise parser will break!  
   lastSeason.put("Chelsea", 1);
   lastSeason.put("Manchester City", 2);
   lastSeason.put("Arsenal", 3);

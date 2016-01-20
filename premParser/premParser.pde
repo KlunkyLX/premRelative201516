@@ -50,6 +50,7 @@ ArrayList<Date> evntDates;  // date of ea evnt in chronological order
 int noTeams = 20;
 
 Table ptsTble = new Table();
+Table leagueTble = new Table();
 Date frstKickOff = new Date();  // assgnd by Match
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
 
@@ -70,12 +71,14 @@ void setup() {
   // Parse ea rprtPage and create/ update match, club, event and timeline objects.
   //--------------------------------------------------------------------------------//
   // Itrte thrgh ea report page.
-  //prseRprt("33744668", kickOffs);  // local - delete
-  //prseRprt("33744606", kickOffs);  // local - delete
-  //prseRprt("33744669", kickOffs);  // local - delete
-  //prseRprt("33744642", kickOffs);  // local - delete  
-  //prseRprt("33744565", kickOffs);  // local - delete
-  //prseRprt("33744640", kickOffs);  // local - delete
+  /*prseRprt("33744668", kickOffs);  // local - delete
+   prseRprt("33744606", kickOffs);  // local - delete
+   prseRprt("33744669", kickOffs);  // local - delete
+   prseRprt("33744642", kickOffs);  // local - delete  
+   prseRprt("33744565", kickOffs);  // local - delete
+   prseRprt("33744640", kickOffs);  // local - delete
+   prseRprt("35239695", kickOffs);  // local - delete
+   prseRprt("35180344", kickOffs);*/  // local - delete
   int lastTime = 1000;  // timer vrble - start after 1 sec
   for (String rprtPage : rprtPages) {
     // Create random speed at which each report page is parsed in
@@ -161,12 +164,19 @@ void setup() {
   // Create column for ea club.
   ptsTble.addColumn("goalTime");
   ptsTble.addColumn("epochScnds");  // millis from epoch
-  for (Map.Entry club : clubs.entrySet ()) {
-    ptsTble.addColumn((String) club.getKey() + "\n Pts");
-    ptsTble.addColumn((String) club.getKey() + "\n F");
-    ptsTble.addColumn((String) club.getKey() + "\n A");
-    ptsTble.addColumn((String) club.getKey() + "\n GD");
-  }  // itrte club enclsng brce
+  // Order the colmn hdrs to correspond with team's prev end of season pstn.
+  for (int i = 1; i < clubs.size () + 1; i++) {
+    for (Map.Entry club : clubs.entrySet ()) {
+      Club newClub = (Club) club.getValue();
+      if (newClub.getLstSsnPos() == i) {
+        String clubNme = (String) club.getKey();
+        ptsTble.addColumn(clubNme + "\nPts");
+        ptsTble.addColumn(clubNme + "\nF");
+        ptsTble.addColumn(clubNme + "\nA");
+        ptsTble.addColumn(clubNme + "\nGD");
+      }  // itrte club enclsng brce
+    }  // if club mtches prev seasons postn
+  }  // loop thrgh ea postn
 
   // Assign zero points to ea club before frst kick-off of the season.
   //--------------------------------------------------------------------------------//
@@ -202,10 +212,11 @@ void setup() {
   frstRow.setInt("epochScnds", lstSsnScnds);  // millis from epoch
   for (Map.Entry club : clubs.entrySet ()) {
     Club newClub = (Club) club.getValue();
-    frstRow.setInt((String) club.getKey() + "\n Pts", newClub.getLstSsnPos());
-    frstRow.setInt((String) club.getKey() + "\n F", 0);
-    frstRow.setInt((String) club.getKey() + "\n A", 0);
-    frstRow.setInt((String) club.getKey() + "\n GD", 0);
+    String clubNme = (String) club.getKey();
+    frstRow.setInt(clubNme + "\nPts", newClub.getLstSsnPos());
+    frstRow.setInt(clubNme + "\nF", 0);
+    frstRow.setInt(clubNme + "\nA", 0);
+    frstRow.setInt(clubNme + "\nGD", 0);
   }  // itrte club enclsng brce
 
   // Enter scnd row with all positions bottom.
@@ -213,10 +224,11 @@ void setup() {
   scndRow.setString("goalTime", preKickOff);
   scndRow.setInt("epochScnds", scndsPre);  // millis from epoch
   for (Map.Entry club : clubs.entrySet ()) {
-    scndRow.setInt((String) club.getKey() + "\n Pts", noTeams);  // no of teams in league
-    scndRow.setInt((String) club.getKey() + "\n F", 0);
-    scndRow.setInt((String) club.getKey() + "\n A", 0);
-    scndRow.setInt((String) club.getKey() + "\n GD", 0);
+    String clubNme = (String) club.getKey();
+    scndRow.setInt(clubNme + "\nPts", noTeams);  // no of teams in league
+    scndRow.setInt(clubNme + "\nF", 0);
+    scndRow.setInt(clubNme + "\nA", 0);
+    scndRow.setInt(clubNme + "\nGD", 0);
   }  // itrte club enclsng brce
   //--------------------------------------------------------------------------------//
 
@@ -267,19 +279,19 @@ void setup() {
         e.printStackTrace();
       }
       if (clubCrrntPts.containsKey(rowDate)) {  // if team scrd or cnceded a goal at this timestamp
-        row.setInt((String) club.getKey() + "\n Pts", clubCrrntPts.get(rowDate));  // no of teams in league
-        row.setInt((String) club.getKey() + "\n F", goalsFor.get(rowDate));
-        row.setInt((String) club.getKey() + "\n A", goalsAgnst.get(rowDate));
-        row.setInt((String) club.getKey() + "\n GD", goalDiff.get(rowDate));
+        row.setInt((String) club.getKey() + "\nPts", clubCrrntPts.get(rowDate));  // no of teams in league
+        row.setInt((String) club.getKey() + "\nF", goalsFor.get(rowDate));
+        row.setInt((String) club.getKey() + "\nA", goalsAgnst.get(rowDate));
+        row.setInt((String) club.getKey() + "\nGD", goalDiff.get(rowDate));
         prevPts = clubCrrntPts.get(rowDate);
         prevFor = goalsFor.get(rowDate);  // cum goals
         prevAgnst = goalsAgnst.get(rowDate);
         prevGD = goalDiff.get(rowDate);  // goal diff
       } else {  // othrwse just updte fields with previous values
-        row.setInt((String) club.getKey() + "\n Pts", prevPts);  // no of teams in league
-        row.setInt((String) club.getKey() + "\n F", prevFor);
-        row.setInt((String) club.getKey() + "\n A", prevAgnst);
-        row.setInt((String) club.getKey() + "\n GD", prevGD);
+        row.setInt((String) club.getKey() + "\nPts", prevPts);  // no of teams in league
+        row.setInt((String) club.getKey() + "\nF", prevFor);
+        row.setInt((String) club.getKey() + "\nA", prevAgnst);
+        row.setInt((String) club.getKey() + "\nGD", prevGD);
       }
     }  // row loop enclsng brce
   }  // itrte club enclsng brce
@@ -304,10 +316,10 @@ void setup() {
     // Itrte thrgh ea club and pop lsts.    
     for (Map.Entry club : clubs.entrySet ()) {
       String clbNme = (String) club.getKey();
-      pts.put(clbNme, ptsRow.getInt(clbNme + "\n Pts"));
-      glsF.put(clbNme, ptsRow.getInt(clbNme + "\n F"));
-      glsA.put(clbNme, ptsRow.getInt(clbNme + "\n A"));
-      gd.put(clbNme, ptsRow.getInt(clbNme + "\n GD"));
+      pts.put(clbNme, ptsRow.getInt(clbNme + "\nPts"));
+      glsF.put(clbNme, ptsRow.getInt(clbNme + "\nF"));
+      glsA.put(clbNme, ptsRow.getInt(clbNme + "\nA"));
+      gd.put(clbNme, ptsRow.getInt(clbNme + "\nGD"));
     }  // club itrtn enclsng brce
 
     // Rank pstn meta.
@@ -328,21 +340,61 @@ void setup() {
 
     // Overwrite points column with new point meta vals.
     for (Map.Entry club : ptsMeta.entrySet ()) {  // itrte thrgh ea club
-      ptsTble.setFloat(i, (String) club.getKey() + "\n Pts", float((String) club.getValue()));
+      ptsTble.setFloat(i, (String) club.getKey() + "\nPts", float((String) club.getValue()));
     }  // club itrtn enclsng brce
   }  // ptsTble row loop enclsng brce
 
   for (Map.Entry club : clubs.entrySet ()) {
     String clbNme = (String) club.getKey();
-    ptsTble.removeColumn(clbNme + "\n F");
-    ptsTble.removeColumn(clbNme + "\n A");
-    ptsTble.removeColumn(clbNme + "\n GD");
+    ptsTble.removeColumn(clbNme + "\nF");
+    ptsTble.removeColumn(clbNme + "\nA");
+    ptsTble.removeColumn(clbNme + "\nGD");
   }  // club itrtn enclsng brce
 
   // Itrte thrgh ea club and remove meta pts columns.
 
   //saveTable(ptsTble, "data/" + league + "ptsMeta" + fileDate + ".html", "html");  // debug
   saveTable(ptsTble, "data/" + league + "ptsMeta" + fileDate + ".csv", "csv");  // debug
+  //--------------------------------------------------------------------------------//
+
+  // Write current league table.
+  //--------------------------------------------------------------------------------//
+  // Retrve vals from last row of previous tble.
+  TableRow lastRow = ptsTble.getRow(ptsTble.lastRowIndex());
+  // Pop vals arry and clubs latest vals hsh.
+  HashSet<Integer> metaVals = new HashSet<Integer>();  // to cnvrt to lst
+  HashMap<String, Integer> clubVals = new HashMap<String, Integer>();
+  for (Map.Entry club : clubs.entrySet ()) {
+    String clubNme = (String) club.getKey();
+    Integer meta = lastRow.getInt(clubNme + "\nPts");
+    metaVals.add(meta);
+    clubVals.put(clubNme, meta);
+  }
+  // Put hshst into a lst.
+  IntList metaDesc = new IntList();
+  for (int metaVal : metaVals) {
+    metaDesc.append(metaVal);
+  }
+  metaDesc.sortReverse();
+  // Create columns for tble.
+  leagueTble.addColumn("team");
+  leagueTble.addColumn("pts");
+  leagueTble.addColumn("f");
+  leagueTble.addColumn("a");
+  leagueTble.addColumn("gd");
+
+  // Loop through desc meta vals.
+  for (int metaVal : metaDesc) {
+    // Itrte thrgh all the clubs to see if they have mtchng val.
+    for (Map.Entry club : clubVals.entrySet ()) {
+      if ((Integer) club.getValue() == metaVal) {
+        addLgeTbleRow(clubs.get(club.getKey()));  // add a new row with club vals
+        clubVals.remove(club);  // then delete club from hsh
+      }
+    }  // club hsh enclsng brce
+  }  // metaDesc enclsng brce 
+
+  saveTable(leagueTble, "../leagueTble.csv", "csv");
   //--------------------------------------------------------------------------------//
 
   // Write positions table.
@@ -355,20 +407,23 @@ void setup() {
     // Itrte thrgh ea club and pop lsts.    
     for (Map.Entry club : clubs.entrySet ()) {
       String clbNme = (String) club.getKey();
-      pstns.put(clbNme, ptsRow.getFloat(clbNme + "\n Pts"));
+      pstns.put(clbNme, ptsRow.getFloat(clbNme + "\nPts"));
     }  // club itrtn enclsng brce
     // Rank pstn meta.
     HashMap<String, String> rnkdPstns = rankerFlt(pstns, 2, false);
 
     // Overwrite meta points column with new relative position.
     for (Map.Entry club : rnkdPstns.entrySet ()) {  // itrte thrgh ea club
-      ptsTble.setInt(i, (String) club.getKey() + "\n Pts", int((String) club.getValue()));
+      ptsTble.setInt(i, (String) club.getKey() + "\nPts", int((String) club.getValue()));
     }  // club itrtn enclsng brce
   }  // ptsTble row loop enclsng brce
 
   // Save in fldr above.
   saveTable(ptsTble, "C:/Users/trist/version-control/visualizations/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
+  // LBI
+  //saveTable(ptsTble, "C:/Users/tristan skinner/version-control/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
   //--------------------------------------------------------------------------------//
+
   // Debug
   //--------------------------------------------------------------------------------//
   //writer.flush();
@@ -495,6 +550,18 @@ HashMap<String, String> addToPts(HashMap<String, String> pts, HashMap<String, St
   }  // club itrtn enclsng brce
   return ptsDec;
 }  // mthd enclsng brce
+//--------------------------------------------------------------------------------//
+
+// Mthd to add new rows to write a current league table for reference.
+//--------------------------------------------------------------------------------//
+void addLgeTbleRow(Club club) {
+  TableRow newRow = leagueTble.addRow();
+  newRow.setString("team", club.getNameBBC());
+  newRow.setInt("pts", club.getCumPoints());
+  newRow.setInt("f", club.getGoalsFor());
+  newRow.setInt("a", club.getGoalsAgnst());
+  newRow.setInt("gd", club.getGoalsFor() - club.getGoalsAgnst());
+}
 //--------------------------------------------------------------------------------//
 
 //--------------------------------------------------------------------------------//
