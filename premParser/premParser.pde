@@ -418,6 +418,9 @@ void setup() {
     }  // club itrtn enclsng brce
   }  // ptsTble row loop enclsng brce
 
+  // Remove epoch colmn. Just kept this in case it was useful.
+  ptsTble.removeColumn("epochScnds");
+
   // Save in fldr above.
   saveTable(ptsTble, "C:/Users/trist/version-control/visualizations/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
   // LBI
