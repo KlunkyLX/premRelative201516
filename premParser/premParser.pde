@@ -351,8 +351,6 @@ void setup() {
     ptsTble.removeColumn(clbNme + "\nGD");
   }  // club itrtn enclsng brce
 
-  // Itrte thrgh ea club and remove meta pts columns.
-
   //saveTable(ptsTble, "data/" + league + "ptsMeta" + fileDate + ".html", "html");  // debug
   saveTable(ptsTble, "data/" + league + "ptsMeta" + fileDate + ".csv", "csv");  // debug
   //--------------------------------------------------------------------------------//
@@ -421,8 +419,15 @@ void setup() {
   // Remove epoch colmn. Just kept this in case it was useful.
   ptsTble.removeColumn("epochScnds");
 
+  // Loop thrgh ea clmn ttle and remove "Pts".
+  for (int i = 1; i < ptsTble.getColumnTitles().length; i++) {  // ignre dateStmp clmn
+    String ttle = ptsTble.getColumnTitle(i).replaceAll("\nPts", "");
+    ttle = ttle.replaceAll("\\W", "");  // rmve all whtespace or not read in D3
+    ptsTble.setColumnTitle(i, ttle);
+  }  // clmn loop enclsng brce
+
   // Save in fldr above.
-  saveTable(ptsTble, "C:/Users/trist/version-control/visualizations/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
+  saveTable(ptsTble, "../" + league + "pstns" + fileDate + ".csv", "csv");
   // LBI
   //saveTable(ptsTble, "C:/Users/tristan skinner/version-control/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
   //--------------------------------------------------------------------------------//
@@ -569,4 +574,4 @@ void addLgeTbleRow(Club club) {
 
 //--------------------------------------------------------------------------------//
 //------------------------------ Functionality End -------------------------------//
-//--------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------//saveTable(timesTble, "../" + league + "times" + fileDate + ".csv", "csv");

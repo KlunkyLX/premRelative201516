@@ -1,39 +1,41 @@
+<!--
 // Tristan Skinner
 // 19/01/2016
 // https://github.com/klunkydata/premRelative201516
-
+	
 // Attributes
-//--------------------------------------------------------------------------------//
-// Interactive Data Visualization for the Web, Scott Murray, O'Reilly, 2013, ISBN: 978-1-449-33973-9
-//--------------------------------------------------------------------------------//
-
+//********************************************************************************//
+// Interactive Data Visualization for the Web, Scott Murray, O'Reilly, 2013,
+// ISBN: 978-1-449-33973-9
+// http://www.bbc.co.uk/sport/football/results
+// http://www.soccerstats.com/results.asp?league=england
+//********************************************************************************//
+-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>PremJourney</title>
-		<script type="text/javascript" src="../d3-master/d3.js"></script>
+		<script type="text/javascript" src="d3.js"></script>
 		<style type="text/css">
-			// Enter style rules here.
+			/* Enter style rules here.*/
 		</style>
 	</head>
 
-	<body>
-	
-	<p>Click on this text to start the season! (once).</p>	// DOM elmnt for evnt lstnr
+	<body>	
+	<p>Click on this text to start the season! (once).</p>
 	
 		<script type="text/javascript">
-		
 		//--------------------------------------------------------------------------------//
 		//-------------------------------- d3 block start --------------------------------//
 		//--------------------------------------------------------------------------------//
 		
 		// Global vals.
 		//--------------------------------------------------------------------------------//
-		var dataset;
+		var events;  // objct[] for ea evnt
+		var pstnsCSV = "prem1516pstns20160123.csv";	// 23rd Jan
 		var iStrt = 1;	// no of clmns from the left to ignore
 		var noClubs;
-		var dataset = [5, 10, 15, 20, 25];  // debug - delete
 		
 		var w = 500;  // svg width
 		var h = 100;  // svg hght
@@ -44,22 +46,15 @@
 		
 		// Load data.
 		//--------------------------------------------------------------------------------//
-		//d3.csv("prem1516pstns20160103.csv", function(error, dataFile) {
-		d3.csv("testV1.csv", function(error, dataFile) {  // debug - delete
-			// Only refrnce data from within callback mthd.
-			
+		d3.csv(pstnsCSV, function(error, dataset) {
 			if (error) {  // if file fails to load
-			console.log(error);  // log the error
-			} else {  // file succssflly loaded!
-			//console.log(rawData);   // debug
-			// dclre glbl vals
-			dataset = dataFile;
-			noClubs = dataset.length - iStrt;  // minus date and epoch clmns
-			
-			// Call fnctns to generate viz.
-			createSVG();  // gnrte viz
-			makeAwesomeCharts();
-			}  // sccssfl load enclsng brce
+				console.log(error);  // log the error
+				} else {  // file succssflly loaded!
+					console.log(dataset);   // debug
+								// dclre glbl vals
+			events = dataset;
+			noClubs = events.length - iStrt;  // minus date
+					}  // sccssfl load enclsng brce
 			});  // csv() enclsng paren
 			//--------------------------------------------------------------------------------//
 			
@@ -74,7 +69,7 @@
 			var svg = d3.select("body")
 			.append("svg")
 			.attr("width", w + margin.left + margin.right)
-			.attr("height", h + margin.top + margin.bottom);
+			.attr("height", h + margin.top + margin.bottom)
 			.append("g")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 			
@@ -85,14 +80,14 @@
 			var yScale = d3.scale.linear()
 			.domain([0, noClubs])
 			.range([h, 0]);
-			var sldrScale = d3.time.scale()
-			.domain([0, d3.max(dataset, function(d) {return d[0];})])	// frst clmn
-			.range([h, 0]);
+			//var sldrScale = d3.time.scale()
+			//.domain([0, d3.max(dataset, function(d) {return d[0];})])	// frst clmn
+			//.range([h, 0]);
 					 
 			 // Icons
 			var circles = svg.selectAll("circle")
 			//var icons = svg.selectAll("image")
-			    .data(dataset)  // bind ea data elmnt to ea elmnt
+			    .data(events)  // bind ea data elmnt to ea elmnt
 			    .enter()  // rtrn placehldr ref to ea new elmnt
 			    .append("circle");  // add ea new elmnt to the DOM
 				
@@ -100,12 +95,12 @@
 				"cx": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
 				//"x": function(d, i) {return xScale(i);},  // hrzntl pstn
 				"cy": function(d) {return yScale(d);},  // vrtcl pstn
-				"r": ((w / noClubs) - iconPddng) / 2;
+				"r": ((w / noClubs) - iconPddng) / 2
 				});
 
 			// Labels
 			svg.selectAll("text")  // rtrn empty rfrnce for ea elmnt
-			   .data(dataset)  // bind ea data elmnt to ea elmnt
+			   .data(events)  // bind ea data elmnt to ea elmnt
 			   .enter()  // rtrn placehldr ref to ea new elmnt
 			   .append("text")  // add ea new elmnt to the DOM
 			   .text(function(d) {return d;})
@@ -124,12 +119,12 @@
 				"text-anchor": "left",	// or "middle"?
 				"x": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
 				"y": function(d) {return yScale(d) - iconPddng;},  // above icon
-				"font-family": "sans-serif";,
-				"font-size": "11px";,
-				"fill": "white";
-				)};
+				"font-family": "sans-serif",
+				"font-size": "11px",
+				"fill": "white"
+				});
 		   //--------------------------------------------------------------------------------//
-		   
+	   
 		   // Event listener
 		   //--------------------------------------------------------------------------------//
 		   // On click, update with new data			
@@ -147,7 +142,7 @@
 				.attr({
 				"y": function(d) {return h - yScale(d);},
 				"height": function(d) {return yScale(d);}
-				)};
+				});
 
 			// Update labels
 			svg.selectAll("text")
@@ -160,13 +155,13 @@
 			   "x": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
 			   "y": function(d) {return yScale(d) - iconPddng;},  // above icon
 			   });
-			   )};
+			   });
 		   //--------------------------------------------------------------------------------//
 		   
 		//--------------------------------------------------------------------------------//
 		//--------------------------------- d3 block end ---------------------------------//
-		//--------------------------------------------------------------------------------//
-			
+		//--------------------------------------------------------------------------------//			
 		</script>
+
 	</body>
 </html>

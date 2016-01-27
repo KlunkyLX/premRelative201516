@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PremJourney</title>
+		<script type="text/javascript" src="d3.js"></script>
+		<style type="text/css">
+			/* Enter style rules here.*/
+		</style>
+	</head>
+
+	<body>	
+	<p>Click on this text to start the season! (once).</p>
+	
+		<script type="text/javascript">
+		//--------------------------------------------------------------------------------//
+		//-------------------------------- d3 block start --------------------------------//
+		//--------------------------------------------------------------------------------//
+		
+		// Global Vrbles
+		//--------------------------------------------------------------------------------//
+		var Viz = {};	// dclre empty glbl objct
+		Viz.pstnsCSV = "prem1516pstns20160126.csv";	// 24th Jan
+		Viz.format = d3.time.format("%Y-%m-%d %H:%M:%S");	// evnt prsr
+		// Remove?
+		Viz.clbNmes = ["Arsenal", "AstonVilla", "Bournemouth", "Chelsea", "CrystalPalace",
+		"Everton", "LeicesterCity", "Liverpool", "ManchesterCity", "ManchesterUnited",
+		"NewcastleUnited", "NorwichCity", "Southampton", "StokeCity", "Sunderland",
+		"SwanseaCity", "TottenhamHotspur", "Watford", "WestBromwichAlbion", "WestHamUnited"];
+		var clubs = [];	// move into mthd scope once wrkng
+		var dataset;
+		//--------------------------------------------------------------------------------//
+		
+		// Load data.
+		//--------------------------------------------------------------------------------//
+		d3.csv(Viz.pstnsCSV,
+			function(d) {return {
+				goalTime: Viz.format.parse(d.goalTime),
+				Arsenal: +d.Arsenal, AstonVilla: +d.AstonVilla, Bournemouth: +d.Bournemouth,
+				Chelsea: +d.Chelsea, CrystalPalace: +d.CrystalPalace, Everton: +d.Everton,
+				LeicesterCity: +d.LeicesterCity, Liverpool: +d.Liverpool,
+				ManchesterCity: +d.ManchesterCity, ManchesterUnited: +d.ManchesterUnited,
+				NewcastleUnited: +d.NewcastleUnited, NorwichCity: +d.NorwichCity,
+				Southampton: +d.Southampton, StokeCity: +d.StokeCity, Sunderland: +d.Sunderland,
+				SwanseaCity: +d.SwanseaCity, TottenhamHotspur: +d.TottenhamHotspur,
+				Watford: +d.Watford, WestBromwichAlbion: +d.WestBromwichAlbion,
+				WestHamUnited: +d.WestHamUnited
+			};},	// loop thrgh ea row to ensre 100% loaded
+			function(error, rows) {
+				if (error) {
+					console.log(error);
+				} else {
+					console.log(rows);	// debug
+					buildViz(rows);
+					}
+			}
+			); 	// csv() enclsng paren
+		//--------------------------------------------------------------------------------//
+			
+		// Build viz
+		//--------------------------------------------------------------------------------//
+		function buildViz(events) {
+		dataset = events;	
+		// Fnctn Scope Vrbles
+		//--------------------------------------------------------------------------------//
+		var noClubs = 20;
+
+		var w = 500; 	// svg width
+		var h = 100; 	// svg hght
+		var pddng = 20; 	// svg pddng
+		var iconPddng = 0.05; 	// % of ea icon band as space between ea other
+		var intrpltn = 1000; 	// milli scnds between ea transition
+			
+		// Margins
+		var margin = {top: pddng * 2, right: pddng, bottom: pddng * 2, left: pddng};
+		 w = w - margin.left - margin.right;
+		 h = h - margin.top - margin.bottom;
+		
+		// Create SVG element.
+		var svg = d3.select("body")	// CSS elmnt
+					.append("svg")
+					.attr("width", w + margin.left + margin.right)
+					.attr("height", h + margin.top + margin.bottom)
+					.append("g")
+					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+					
+		// Scales
+		var xScale = d3.scale.ordinal()
+						.domain(d3.range(noClubs))
+						.rangeRoundBands([0, w], iconPddng);
+						
+		var yScale = d3.scale.linear()
+								.domain([0, noClubs])
+								.range([h, 0]);
+
+		var sldrScale = d3.time.scale()
+								.domain([0, d3.max(events, function(d) {return d;})])
+								.range([0, w]);
+		
+		// Genrate objct arry for ea club with meta vals.
+		var club = "test";
+		/*var*/ clubs.push({	// []
+			nme: dataset[0].Arsenal
+		});
+
+		
+		var mncstr = "ManchesterUnited";	// debug - delete
+		// Bind club data to the DOM.
+		var icons = svg.selectAll("image")	// SVG elmnt
+						.data(clubs) 	// bind ea data elmnt to ea elmnt
+					    .enter() 	// rtrn placehldr ref to ea new elmnt
+					    .append("image") 	// add ea new elmnt to the DOM
+					    .attr({
+							"x": function(clb, i) {return xScale(i);}, 	// hrzntl pstn
+							// Initially assgn prev season's final standing.
+							//"y": function(clb) {return yScale(clb.pstn[0]);}, 	// vrtcl pstn
+							"height": 50, "width": 50,
+							"xlink:href": "/icons/" + mncstr + "V1.jpg",
+							//"xlink:href": function(clb) {return "/icons/" + clb.nme + ".jpg";}
+							//"r": ((w / noClubs) - iconPddng) / 2
+						});
+		//--------------------------------------------------------------------------------//
+			
+		}  // buidViz enclsng brce
+		//--------------------------------------------------------------------------------//
+		
+		
+		//--------------------------------------------------------------------------------//
+		//--------------------------------- fnctns start ---------------------------------//
+		//--------------------------------------------------------------------------------//			
+		
+		//--------------------------------------------------------------------------------//
+		//---------------------------------- fnctns end ----------------------------------//
+		//--------------------------------------------------------------------------------//			
+		
+		//--------------------------------------------------------------------------------//
+		//--------------------------------- d3 block end ---------------------------------//
+		//--------------------------------------------------------------------------------//			
+		</script>
+
+	</body>
+</html>
