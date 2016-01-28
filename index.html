@@ -1,16 +1,3 @@
-<!--
-// Tristan Skinner
-// 19/01/2016
-// https://github.com/klunkydata/premRelative201516
-	
-// Attributes
-//********************************************************************************//
-// Interactive Data Visualization for the Web, Scott Murray, O'Reilly, 2013,
-// ISBN: 978-1-449-33973-9
-// http://www.bbc.co.uk/sport/football/results
-// http://www.soccerstats.com/results.asp?league=england
-//********************************************************************************//
--->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -26,142 +13,164 @@
 	<p>Click on this text to start the season! (once).</p>
 	
 		<script type="text/javascript">
-		//--------------------------------------------------------------------------------//
-		//-------------------------------- d3 block start --------------------------------//
-		//--------------------------------------------------------------------------------//
-		
-		// Global vals.
-		//--------------------------------------------------------------------------------//
-		var events;  // objct[] for ea evnt
-		var pstnsCSV = "prem1516pstns20160123.csv";	// 23rd Jan
-		var iStrt = 1;	// no of clmns from the left to ignore
-		var noClubs;
-		
-		var w = 500;  // svg width
-		var h = 100;  // svg hght
-		var pddng = 20;  // svg pddng
-		var iconPddng = 0.05;  // % of ea icon band as space between ea other
-		var intrpltn = 1000;  // milli scnds between ea transition
-		//--------------------------------------------------------------------------------//
-		
-		// Load data.
-		//--------------------------------------------------------------------------------//
-		d3.csv(pstnsCSV, function(error, dataset) {
-			if (error) {  // if file fails to load
-				console.log(error);  // log the error
-				} else {  // file succssflly loaded!
-					console.log(dataset);   // debug
-								// dclre glbl vals
-			events = dataset;
-			noClubs = events.length - iStrt;  // minus date
-					}  // sccssfl load enclsng brce
-			});  // csv() enclsng paren
-			//--------------------------------------------------------------------------------//
-			
-			// Create SVG element.
-			//--------------------------------------------------------------------------------//
-			// Margins
-			var margin = {top: pddng * 2, right: pddng, bottom: pddng * 2, left: pddng};
-			 w = w - margin.left - margin.right;
-			 h = h - margin.top - margin.bottom;
-			
-			//void createSVG() {
-			var svg = d3.select("body")
-			.append("svg")
-			.attr("width", w + margin.left + margin.right)
-			.attr("height", h + margin.top + margin.bottom)
-			.append("g")
-			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-			
-			// Scales
-			var xScale = d3.scale.ordinal()
-			.domain(d3.range(noClubs))
-			.rangeRoundBands([0, w], iconPddng);
-			var yScale = d3.scale.linear()
-			.domain([0, noClubs])
-			.range([h, 0]);
-			//var sldrScale = d3.time.scale()
-			//.domain([0, d3.max(dataset, function(d) {return d[0];})])	// frst clmn
-			//.range([h, 0]);
-					 
-			 // Icons
-			var circles = svg.selectAll("circle")
-			//var icons = svg.selectAll("image")
-			    .data(events)  // bind ea data elmnt to ea elmnt
-			    .enter()  // rtrn placehldr ref to ea new elmnt
-			    .append("circle");  // add ea new elmnt to the DOM
-				
-			circles.attr({	// delete?
-				"cx": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
-				//"x": function(d, i) {return xScale(i);},  // hrzntl pstn
-				"cy": function(d) {return yScale(d);},  // vrtcl pstn
-				"r": ((w / noClubs) - iconPddng) / 2
-				});
+  //--------------------------------------------------------------------------------//
+  //-------------------------------- d3 block start --------------------------------//
+  //--------------------------------------------------------------------------------//
+  
+  // Global Vrbles
+  //--------------------------------------------------------------------------------//
+  var Viz = {}; // dclre empty glbl objct
+  Viz.pstnsCSV = "prem1516pstns20160126.csv"; // 24th Jan
+  Viz.format = d3.time.format("%Y-%m-%d %H:%M:%S"); // evnt prsr
+  var clubs = [{}]; // move into mthd scope once wrkng
+  var dataset; // move into mthd scope once wrkng
+  //--------------------------------------------------------------------------------//
+  
+  // Load data.
+  //--------------------------------------------------------------------------------//
+  d3.csv(Viz.pstnsCSV,
+   function(d) {return {
+    goalTime: Viz.format.parse(d.goalTime),
+    Arsenal: +d.Arsenal, AstonVilla: +d.AstonVilla, Bournemouth: +d.Bournemouth,
+    Chelsea: +d.Chelsea, CrystalPalace: +d.CrystalPalace, Everton: +d.Everton,
+    LeicesterCity: +d.LeicesterCity, Liverpool: +d.Liverpool,
+    ManchesterCity: +d.ManchesterCity, ManchesterUnited: +d.ManchesterUnited,
+    NewcastleUnited: +d.NewcastleUnited, NorwichCity: +d.NorwichCity,
+    Southampton: +d.Southampton, StokeCity: +d.StokeCity, Sunderland: +d.Sunderland,
+    SwanseaCity: +d.SwanseaCity, TottenhamHotspur: +d.TottenhamHotspur,
+    Watford: +d.Watford, WestBromwichAlbion: +d.WestBromwichAlbion,
+    WestHamUnited: +d.WestHamUnited
+   };}, // loop thrgh ea row to ensre 100% loaded
+   function(error, rows) {
+    if (error) {
+     //console.log(error);
+    } else {
+     //console.log(rows); // debug
+     buildViz(rows);
+     }
+   }
+   );  // csv() enclsng paren
+  //--------------------------------------------------------------------------------//
+   
+  // Build viz
+  //--------------------------------------------------------------------------------//
+  function buildViz(dataset) {
+  events = dataset; // delete
+  // Fnctn Scope Vrbles
+  //--------------------------------------------------------------------------------//
+  var w = 500;  // svg width
+  var h = 100;  // svg hght
+  var pddng = 20;  // svg pddng
+  var iconPddng = 0.05;  // % of ea icon band as space between ea other
+  var intrpltn = 1000;  // milli scnds between ea transition
+  //var clubs[{}];
+  var evntTimes = [{}];
+   
+  // Margins
+  var margin = {top: pddng * 2, right: pddng, bottom: pddng * 2, left: pddng};
+   w = w - margin.left - margin.right;
+   h = h - margin.top - margin.bottom;
+  
+  // Create SVG element.
+  var svg = d3.select("body") // CSS elmnt
+     .append("svg")
+     .attr("width", w + margin.left + margin.right)
+     .attr("height", h + margin.top + margin.bottom)
+     .append("g")
+     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+     
+  createClubs(); // gnrte objct arry for ea club with meta vals
+  createTimes(evntTimes); // gnrte arry of event times
+  console.log(clubs); // debug - delete
+  
+  // Scales
+  var xScale = d3.scale.ordinal()
+      .domain(d3.range(clubs.length))
+      .rangeRoundBands([0, w], iconPddng);
+      
+  var yScale = d3.scale.linear()
+        .domain([0, clubs.length])
+        .range([h, 0]);
 
-			// Labels
-			svg.selectAll("text")  // rtrn empty rfrnce for ea elmnt
-			   .data(events)  // bind ea data elmnt to ea elmnt
-			   .enter()  // rtrn placehldr ref to ea new elmnt
-			   .append("text")  // add ea new elmnt to the DOM
-			   .text(function(d) {return d;})
-			   /*.attr("text-anchor", "middle")
-			   .attr("x", function(d, i) {
-			   		return i * (w / dataset.length) + (w / dataset.length - barPadding) / 2;
-			   })
-			   .attr("y", function(d) {
-			   		return h - (d * 4) + 14;
-			   })
-			   .attr("font-family", "sans-serif")
-			   .attr("font-size", "11px")
-			   .attr("fill", "white");
-			   */
-			   .attr({
-				"text-anchor": "left",	// or "middle"?
-				"x": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
-				"y": function(d) {return yScale(d) - iconPddng;},  // above icon
-				"font-family": "sans-serif",
-				"font-size": "11px",
-				"fill": "white"
-				});
-		   //--------------------------------------------------------------------------------//
-	   
-		   // Event listener
-		   //--------------------------------------------------------------------------------//
-		   // On click, update with new data			
-			d3.select("p").on("click", function() {
-			// New values for dataset
-			dataset = [ 11, 12, 15, 20, 18, 17, 16, 18, 23, 25,
-			5, 10, 13, 19, 21, 25, 22, 18, 15, 13 ];
-			
-			// Update icons
-			svg.selectAll("circle")
-				.data(dataset)
-				.transition()
-				.duration(intrpltn)
-				.ease("circle")
-				.attr({
-				"y": function(d) {return h - yScale(d);},
-				"height": function(d) {return yScale(d);}
-				});
+  var sldrScale = d3.time.scale()
+        .domain([0, d3.max(events, function(d) {return d;})])
+        .range([0, w]);
 
-			// Update labels
-			svg.selectAll("text")
-			   .data(dataset)
-			   .transition()
-			   .duration(intrpltn)
-			   .ease("circle")
-			   .text(function(d) {return d;})
-			   .attr({
-			   "x": function(i) {return i * (w / noClubs) / 2;},  // hrzntl pstn
-			   "y": function(d) {return yScale(d) - iconPddng;},  // above icon
-			   });
-			   });
-		   //--------------------------------------------------------------------------------//
-		   
-		//--------------------------------------------------------------------------------//
-		//--------------------------------- d3 block end ---------------------------------//
-		//--------------------------------------------------------------------------------//			
-		</script>
+  
+  var mncstr = "ManchesterUnited"; // debug - delete
+  // Bind club data to the DOM.
+  var icons = svg.selectAll("image") // SVG elmnt
+      .data(clubs)  // bind ea data elmnt to ea elmnt
+         .enter()  // rtrn placehldr ref to ea new elmnt
+         .append("image")  // add ea new elmnt to the DOM
+         .attr({
+       "x": function(d, i) {return xScale(i);},  // hrzntl pstn
+       // Initially assgn prev season&apos;s final standing.
+       //"y": function(d) {return yScale(d.pstn[0]);},  // vrtcl pstn
+       "height": 50, "width": 50,
+       "xlink:href": "/icons/" + mncstr + "V1.jpg",
+       //"xlink:href": function(d) {return "/icons/" + d.key + ".jpg";}
+       //"r": ((w / clubs.length) - iconPddng) / 2
+      });
+  //--------------------------------------------------------------------------------//
+   
+  }  // buidViz enclsng brce
+  //--------------------------------------------------------------------------------//
+  
+  // Mthd to parse all data fields from a flat file.
+  //--------------------------------------------------------------------------------//
+  function createClubs() {
+  var keys = ["Arsenal", "AstonVilla", "Bournemouth", "Chelsea", "CrystalPalace",
+  "Everton", "LeicesterCity", "Liverpool", "ManchesterCity", "ManchesterUnited",
+  "NewcastleUnited", "NorwichCity", "Southampton", "StokeCity", "Sunderland",
+  "SwanseaCity", "TottenhamHotspur", "Watford", "WestBromwichAlbion", "WestHamUnited"];
+  var nmes = ["Arsenal", "Villa", "Bournemouth", "Chelsea", "Palace", "Everton",
+  "Leicester", "Liverpool", "Man City", "Man U", "Newcastle", "Norwich",
+  "Southampton", "Stoke", "Sunderland", "Swansea", "Spurs", "Watford", "West Brom",
+  "West Ham"];
+  
+  for (i = 0; i < keys.length; i++) {
+      // Pop arry of pstns.
+      var pstns = [{}];
+      for (ii = 0; ii < events.length; ii++) {
+          var evntKey = events[ii].goalTime;
+          var clbNme =  keys[i];
+          var evntPstn =  events[ii].clbNme;
+          pstns.push({
+           evntKey: evntPstn
+          });
+          } // ea evnt enclsng brce
+          clubs.push({
+           key: keys[i],
+           nme: nmes[i],
+           pstn: pstns
+          })
+          } // ea clb enclsng brce
+        }  // mthd enclsng brce
+  //--------------------------------------------------------------------------------//
+  
+  // Mthd to create arry of ea evnt time elmnt.
+  //--------------------------------------------------------------------------------//
+  function createTimes(evntTimes) {
+  for (i = 0; i < events.length; i++) {
+      evntTimes.push(events[i].goalTime);
+      } // ea evnt enclsng brce
+      return evntTimes;
+     }  // mthd enclsng brce
+  //--------------------------------------------------------------------------------//
+
+  //--------------------------------------------------------------------------------//
+  //--------------------------------- fnctns start ---------------------------------//
+  //--------------------------------------------------------------------------------//   
+  
+  //--------------------------------------------------------------------------------//
+  //---------------------------------- fnctns end ----------------------------------//
+  //--------------------------------------------------------------------------------//   
+  
+  //--------------------------------------------------------------------------------//
+  //--------------------------------- d3 block end ---------------------------------//
+  //--------------------------------------------------------------------------------//   
+  </script>
 
 	</body>
 </html>

@@ -21,6 +21,8 @@
 // Visualizing Data, Ben Fry, O'Reilly, 2008, ISBN: 978-0-596-15852-1
 // http://www.bbc.co.uk/sport/football/premier-league/results/
 // http://www.soccerstats.com/
+// http://www.theguardian.com/football/premierleague/table
+// https://sport.guim.co.uk/football/crests/60/
 //--------------------------------------------------------------------------------//
 
 // Import libraries
@@ -432,6 +434,9 @@ void setup() {
   //saveTable(ptsTble, "C:/Users/tristan skinner/version-control/premRelative201516/" + league + "pstns" + fileDate + ".csv", "csv");
   //--------------------------------------------------------------------------------//
 
+  // Rtrve club icons.
+  //iconPrsr();
+  
   // Debug
   //--------------------------------------------------------------------------------//
   //writer.flush();
