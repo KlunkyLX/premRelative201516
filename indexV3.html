@@ -5,7 +5,17 @@
 		<title>PremJourney</title>
 		<script type="text/javascript" src="d3.js"></script>
 		<style type="text/css">
-			/* Enter style rules here.*/
+			/* Enter style rules for axes.*/
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+      .axis text {
+        font-family: georgia;
+        font_size: 11px;
+      }
 		</style>
 	</head>
 
@@ -58,13 +68,13 @@
   events = dataset; // delete
   // Fnctn Scope Vrbles
   //--------------------------------------------------------------------------------//
-  var w = 620;  // svg width
+  var w = 920;  // svg width
   var h = 620;  // svg hght
   var evntTimes = createTimes();
   var clubs = createClubs(); // gnrte objct arry for ea club with meta valsvar iconW = 60;
-  var pddng = 20;  // svg pddng
+  var pddng = 50;  // svg pddng
   var intrpltn = 1000;  // milli scnds between ea transition
-  console.log(clubs); // debug
+  //console.log(clubs); // debug
    
   // Margins
   var margin = {top: pddng, right: pddng, bottom: pddng, left: pddng};
@@ -72,7 +82,7 @@
    h = h - margin.top - margin.bottom;
 
   var iconRdctn = 0.7;
-  var iconBndPddng = 0.3;  // % of ea icon band as space between ea other
+  var iconBndPddng = 0.1;  // % of ea icon band as space between ea other
   var iconHrzntlPddng = -1;
   var iconW = w / clubs.length; // all icons have equal wdth
   var iconH = h / clubs.length; // all icons have equal wdth
@@ -94,48 +104,93 @@
       .rangeRoundBands([0, w], iconBndPddng);
       
   var yScale = d3.scale.linear()
-        .domain([0, clubs.length])
-        .range([0, h]);
+        .domain([1, clubs.length])
+        .range([1, h]);
 
   var sldrScale = d3.time.scale()
         .domain([0, d3.max(evntTimes, function(d) {return d;})])
         .range([0, w]);
   
-  // Define key function, to be used when binding data
-  var key = function(d) {return d.key;};
+  // Define fnctn to sort objcts into  prev season's standngs.
+   var prevSsn = function(a, b) {return d3.ascending(a.pstn[0], b.pstn[0]);} // prev season
 
+  // Create arry of SVGImageElement.
   // Bind club data to the DOM.
   var icons = svg.selectAll("image") // SVG elmnt
-      .data(clubs, key)  // bind ea data elmnt to ea elmnt
+      .data(clubs)  // bind ea data elmnt to ea elmnt
          .enter()  // rtrn placehldr ref to ea new elmnt
          .append("image")  // add ea new elmnt to the DOM                  
-         .sort(function(a, b) {return d3.ascending(a.pstn[0], b.pstn[0]);}) // prev season
+         .sort(prevSsn) // prev season
          .attr({
        "x": function(d, i) {return xScale(i);},  // hrzntl pstn
        // Initially assgn prev seasons final standing.
-       "y": function(d) {return yScale(d.pstn[0]);},  // vrtcl pstn
+       "y": function(d) {return yScale(d.pstn[0] - 0.5);},  // vrtcl pstn
        //"height": function(d) {return (d.h / 100) * ;},
        "height": iconH,
        "width": iconW,
        "xlink:href": function(d) {return "/icons/" + d.key + ".png";}
        //"r": ((w / clubs.length) - iconBndPddng) / 2
       });
+      console.log(icons[0]); // debug 
 
-  // Define labels.
-  var labels = svg.selectAll("text")
+  // Define initial labels.
+  /*var labels = svg.selectAll("text")
                   .data(clubs)
                   .enter()
                   .append("text")
+                  .sort(prevSsn) // prev season
                   .text(function(d) {return d.nme;})
                   .attr({
-                  "x": function(d, i) {return xScale(i);},  // hrzntl pstn
+                  "x": function(d, i) {return xScale(i) + (iconW + 2);},  // hrzntl pstn 
                   // Initially assgn prev seasons final standing.
                   "y": function(d) {return yScale(d.pstn[0]);},  // vrtcl pstn
                   "font-family": "sans-serif",
                   "font-size": "11px",
-                  "fill": "black"
-      });
-  //--------------------------------------------------------------------------------//
+                  "fill": "black",
+                  "text-anchor": "right"
+      });*/
+
+  // Define event listener.
+  d3.select("p")
+    .on("click", function() { // do smethng on clck
+      nxtEvnt(); // progress to nxt evnt
+    });
+
+  // Define axes.
+  var tckPstn = function(d) {
+    if (d > 3) {
+      return d + "th";
+    } else if (d == 1) {
+      return d + "st";
+    } else if (d == 2) {
+      return d + "nd";
+    } else {
+      return d + "rd";
+    }
+  }
+
+  var lAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("left")
+                .ticks(clubs.length)  // set rough no of tcks
+                .tickFormat(tckPstn);
+  svg.append("g")
+      .attr({
+        "class": "axis"  // assgn css class "axis"
+      })
+      .call(lAxis);
+
+  var rAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("right")
+                .ticks(clubs.length)  // set rough no of tcks
+                .tickFormat(tckPstn);
+  svg.append("g")
+      .attr({
+        "class": "axis",  // assgn css class "axis"
+        "transform": "translate(" + w + ")" // assgn to right hand side
+      })
+      .call(rAxis);
    
   }  // buidViz enclsng brce
   //--------------------------------------------------------------------------------//
@@ -196,6 +251,26 @@
     return clubs;
     }  // mthd enclsng brce
   //--------------------------------------------------------------------------------//
+
+  // Mthd to move icons to the next event.
+  //--------------------------------------------------------------------------------//
+  function nxtEvnt() {
+    icons.selectAll("image")
+      .data(clubs)  // rebind new vals
+         .sort(prevSsn) // prev season
+         .attr({
+       //"x": function(d, i) {return xScale(i);},  // hrzntl pstn
+       // Initially assgn prev seasons final standing.
+       "y": function(d) {return yScale(d.pstn[0] - 0.5);},  // vrtcl pstn
+       //"height": function(d) {return (d.h / 100) * ;},
+       //"height": iconH,
+       //"width": iconW,
+       //"xlink:href": function(d) {return "/icons/" + d.key + ".png";}
+       //"r": ((w / clubs.length) - iconBndPddng) / 2
+      });
+  }  // mthd enclsng brce
+  //--------------------------------------------------------------------------------//
+
 
   //--------------------------------------------------------------------------------//
   //--------------------------------- fnctns start ---------------------------------//
