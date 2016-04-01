@@ -1,0 +1,1767 @@
+
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="keywords" content="">
+<!--    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+    
+     <meta content="initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport" />
+    <meta name="MobileOptimized" content="320"/>
+    
+    <meta name="format-detection" content="telephone=yes"/>
+    <meta name="format-detection" content="address=yes">
+   
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href=""/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href=""/>
+    <link rel="shortcut icon" type="image/gif" href="/content/dam/premierleague/favicon.ico"/>
+
+    
+    
+    
+    
+    
+    <link href="/etc/designs/default.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+
+
+<link href="/etc/designs/default.css" rel="stylesheet" type="text/css">
+ 
+<script type="text/javascript" src="/etc/designs/mobile/exlibs.js"></script>
+<link rel="stylesheet" href="/etc/designs/mobile/exlibs.css" type="text/css">
+ 
+<script type="text/javascript" src="/etc/designs/mobile/clientlibs.js"></script>
+<link rel="stylesheet" href="/etc/designs/mobile/clientlibs.css" type="text/css">
+ 
+    
+
+            
+
+
+
+<!-- Initialise tracking object and event handlers -->
+<script type="text/javascript">
+    $.gaTrack = function() {
+        if (_gaq){
+            var argsArray = Array.prototype.slice.call(arguments);
+            var evt = argsArray.shift();
+            var evtCategory = argsArray.shift();
+            var evtAction = argsArray.shift();
+            var evtLabel = argsArray.shift();
+            
+            // eg. _gaq.push(['_trackEvent','matches','tickets','View All Tickets'])
+            _gaq.push(['_trackEvent', evtCategory, evtAction, evtLabel]);
+        }
+    }
+    
+    $(document).ready(function() {
+        window.GABeacon = $({});                            // Bind a custom event into which we fire values to trigger track events, e.g
+        window.GABeacon.bind("GAEvent:track",$.gaTrack);    // $('body').trigger("YWAEvent.track",["cf",22,"Facebook"])
+    });
+</script>
+
+
+<!-- GA Base Tag 20130514 -->
+<!-- GA Script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-33785302-1"]);
+  _gaq.push(['_setDomainName', 'premierleague.com']);
+  _gaq.push(['_addIgnoredRef', 'premierleague.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End GA Script -->
+
+<!-- GA Dynamic Exit, Download, Mailto GA Extension -->
+<script language="javascript" type="text/javascript" src="/etc/designs/mobile/clientlibs/js/analytics/ga_extensions.js"></script>
+<!-- End GA Dynamic Exit, Download, Mailto GA Extension -->
+<!-- End GA Base Tag -->   
+    
+
+<!-- Lotame Header Tag -->
+
+<script type="text/javascript">
+var cc_client_id=3150;
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.crwdcntrl.net/5/c='+cc_client_id.toString()+'/pe=y/callback=processauds"></scr'+'ipt>');
+var adtechCCvals = "";
+function processauds(adtechccauds) {
+if (typeof(adtechccauds) != 'undefined'){
+for (var cci = 0; cci < adtechccauds.Profile.Audiences.Audience.length;cci++){
+if (cci > 0) adtechCCvals += ":";
+adtechCCvals +=adtechccauds.Profile.Audiences.Audience[cci].abbr;
+}
+}
+}
+</script>
+
+
+
+<script language="javascript">&lt;!--document.write('&lt;scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn/3.0/327.0/3052915/0/0/ADTECH;loc=100;target=_blank;sub1=[subst];key=key1+key2+key3+key4;grp=[group];KVabbr='+window.adtechCCvals+';misc='+new Date().getTime()+';rdclick="&gt;&lt;/scri'+'pt&gt;');//--&gt;
+</script>
+
+<script src="http://tags.crwdcntrl.net/c/3688/cc.js?ns=_cc3688" id="LOTCC_3688"></script>
+
+<script type="text/javascript" src="/etc/designs/premierleague/clientlibs/js/lotame.js"></script>
+
+<!-- end of Lotame Header Tag -->  
+    
+    <title>Fixture | Everton vs Newcastle</title>
+
+</head>
+<body>
+<div id="wrapper" class="page mobilefixturepage mobilecontentpage ">
+
+    
+
+
+
+<div class="pagedata">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+ 
+    
+    
+
+ 
+
+
+<!-- Custom Effective Measure Tag Code -->
+<script type="text/javascript">
+  (function() {
+    var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+    em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+  })();
+</script>
+<noscript>
+<img src="//me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;"/>
+</noscript>  
+    
+
+<div class="parsys iparsys floatingbar-ipsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="parsys iparsys floatingbar-ipsys"><div class="section"><div class="parbase codeinsert">
+
+
+
+
+<style>
+	.ad_floating_bar {
+	    bottom: 0;
+	    display: none;
+	    left: 0;
+	    margin: 0;
+	    padding: 0;
+	    position: fixed;
+	    width: 100%;
+	    z-index: 1010;
+	}
+	
+	.ad_floating_bar div {
+	    height: 50px;
+	    margin: 0 auto;
+	    position: relative;
+	    width: 320px;
+	}
+	
+	.ad_floating_bar .close {
+	    background: url("/etc/designs/premierleague/images/close-button-ad-floating-bar.png") no-repeat scroll center center #44445E;
+	    background-size:12px 12px;
+	    cursor: pointer;
+	    display: block;
+	    height: 16px;
+	    position: absolute;
+	    right: 0px;
+	    top: 0px;
+	    width: 16px;
+	    z-index: 1011;
+	}
+	
+	#stwrapper.stwrapper {
+	    display: none;
+	}
+
+</style>
+
+<div class="ad_floating_bar clearfix" data-adtech="adtech-floating">
+  <div>
+	  <span class="close">&nbsp;</span>
+	  
+	  <!--Mobile JavaScript Tag // Tag for network 327: Perform // Website: MOBILE - Premier League // Page: Homepage // Placement: Homepage-FloatingBar-1x1 (4812453) // created at: Nov 5, 2013 1:36:12 PM-->
+	  <script language="javascript">
+		function floatingBarAd() {
+			if (window.adgroupid == undefined) {
+				window.adgroupid = Math.round(Math.random() * 1000);
+			}
+			return '<scr'+'ipt language="javascript1.1" src="http://a.adtech.de/addyn/3.0/327.0/0/0/-1/ADTECH;loc=100;grp=;alias=PLHP_Floatingbar_-5;misc='+new Date().getTime()+'"></scri'+'pt>';
+		}
+	  </script>
+	  <noscript>
+	  	<a href="http://core.adtech.de/adlink/3.0/327.0/0/0/-1/ADTECH;loc=300;grp=;alias=PLHP_Floatingbar_-5;random=1234567890">
+	  		<img src="http://core.adtech.de/adserv/3.0/327.0/0/0/-1/ADTECH;loc=300;grp=;alias=PLHP_Floatingbar_-5;random=1234567890" border="0">
+	  	</a>
+	  </noscript>
+	  <!-- End of JavaScript Tag -->
+	  
+	  <div id="floating_bar_adtech_container">
+		<script type="text/javascript">
+			(function($) {
+			    if (!$.fn.getCookie) {
+			        $.extend($.fn, {
+			            getCookie: function(c_name) {
+			                try {
+			                    var i, x, y,
+			                        ARRcookies = document.cookie.split(";");
+			                    for (i = 0; i < ARRcookies.length; i++) {
+			                        x = ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+			                        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+			                        x = x.replace(/^s+|s+$/g,"");
+			                        if (x == c_name) return unescape(y);
+			                    };
+			                }
+			                catch(err) {
+			                    return false;
+			                };
+			                return false;
+			            }
+			        });
+			    };
+			})(Zepto);
+		
+			(function(){
+				var el = $('.ad_floating_bar');
+				if (el) {
+					var cookie_name = 'sw_no_ad_floating_bar';
+					if (!$.fn.getCookie(cookie_name)) {
+						if (typeof floatingBarAd != 'undefined') {
+							var text = floatingBarAd();
+							document.write(text);
+							
+							// only show banner div if Ad content exists
+							setTimeout(function(){
+								var adExists = false;
+								var addContent = $("#floating_bar_adtech_container").children("div");
+								
+								if (addContent && addContent.length > 0){
+									adExists = true;
+									
+								} else {
+									addContent = $("#floating_bar_adtech_container").children("a");
+									if (addContent && addContent.length > 0){
+										adExists = true;
+									}
+								}
+								
+								if (adExists) {
+									// ignore 1x1 ads 
+									if (addContent[0].firstChild.naturalWidth > 1) {
+										el.css({display:'block'});
+									}
+								}
+							},3000); //Adjust the timeout interval to broadcast ads more accurately
+							
+							$('.ad_floating_bar .close').bind('click', function(evt){
+								el.css({display:'none'});
+								var date = new Date();
+								date.setTime(date.getTime()+(24*60*60*1000)); // 24h
+								document.cookie = cookie_name + "=1; expires=" + date.toUTCString() + "; path=/; domain=.premierleague.com;";
+								//Event.stop(evt);
+							});
+						}
+					}
+				}
+			})();
+		</script>
+	  </div>
+  </div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+
+
+<div>
+    
+
+    <div class="mob-ad"> 
+        <div class="parbase mobilebannerad banner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ <!-- Top Banner -->
+<div>
+    <div class="top-banner" style="background-color:#C0C0C0;">
+        
+            <script language="javascript">
+                 if (window.adgroupid == undefined) {
+                     window.adgroupid = Math.round(Math.random() * 1000);
+                 }
+                 document.write('<scr'+'ipt language="javascript1.1" src="http://a.adtech.de/addyn/3.0/327.0/0/0/-1/ADTECH;loc=100;grp='+window.adgroupid+';alias=PLP_top-1;misc='+new Date().getTime()+'"></scri'+'pt>');
+            </script>
+    
+            <noscript>
+                <a href="http://core.adtech.de/adlink/3.0/327.0/0/0/-1/ADTECH;loc=300;grp=102;alias=PLP_top-1;random=1038442208">
+                <img src="http://core.adtech.de/adserv/3.0/327.0/0/0/-1/ADTECH;loc=300;grp=102;alias=PLP_top-1;random=1038442208" border="0"/>
+                </a>
+            </noscript>
+    
+        
+        <!-- <figure><img src="http://aka-cdn-ns.adtech.de/apps/389/Ad9428869St3Sz3055Sq104762537V0Id22/320x50_PL_Twitter_Ads.gif" width="320" height="50" alt="Banner alternative text goes her e" title="Banner alternative text goes here" /></figure> -->
+    </div>            
+</div>
+<!-- End Top Banner -->
+
+</div>
+
+    </div>
+    <div class="mobilehead header">
+
+
+
+
+
+<!-- Site Header -->
+<header>
+    <div class="content">
+        <a href="/en-gb.html" title="Official Premier League Mobile Site"> 
+          <h1 class="logo" title="Official Premier League Mobile Site">Official Premier League Mobile Site</h1>
+        </a>
+        
+        <a href="/en-gb.html" title="Barclays Premier League" class="head-logo-new">
+            <h2 class="barclayslogolong">Barclays Premier League</h2>
+        </a>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="/en-gb/fixtures.html" title="Fixtures">Fixtures</a></li>
+                <li><a href="/en-gb/scores-and-results.html" title="Scores">Scores</a></li>
+                <li><a href="/en-gb/league-table.html" title="Table">Table</a></li>
+            </ul>
+        </nav>
+        
+        <a href="#menu-nav" title="Options Menu" class="arrow-link-menu" id="menu-link"></a>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />-->
+        
+    </div>
+</header>
+<!-- End Site Header -->
+
+<!-- Menu navigation -->
+<div class="menu-nav" id="menu-nav">
+    <div class="clearfix"></div>
+    <nav class="clearfix">
+        <ul class="clearfix center">
+            <li><a href="/en-gb/news.html" title="News & Features">News & Features</a></li>
+            <li><a href="/en-gb/videos.html" title="Videos">Videos</a></li>
+            <li><a href="/en-gb/clubs.html" title="Clubs">Clubs</a></li>
+            <li><a href="/en-gb/players.html" title="Players">Players</a></li>
+            <li><a href="/en-gb/form-guide.html" title="Form Guide">Form Guide</a></li>
+            <li><a href="/en-gb/statistics.html" title="Statistics">Statistics</a></li>
+            <li><a href="/en-gb/tickets.html" title="Tickets">Tickets</a></li>
+            <li><a href="/en-gb/broadcasts.html" title="TV Listings">TV Listings</a></li>
+        </ul>
+        <div class="clearfix"></div>
+
+        <div class="external-links">
+            
+            <a href="http://m.fantasy.premierleague.com" target="_blank">
+                <img src='/etc/designs/mobile/images/fantasy.png'/>
+            </a>
+            <a href="http://live.premierleague.com/" target="_blank">
+                <img src='/etc/designs/mobile/images/carlsberg.png'/>
+            </a>
+            
+               <a href="http://kids.premierleague.com" target="_blank">
+                   
+                   <img src='/etc/designs/mobile/images/premierleague_kidsmark.png'/>
+               </a>
+            
+        </div>
+        
+        <div class="lang-selector clearfix">
+            <a id="lang-selector-btn">
+                Change Language
+            </a>
+        </div>
+    </nav>
+</div>
+
+
+<div id="lang-selector-list">
+    <ul>
+        <li><a class="lang" locale="pt_BR" href="http://br.premierleague.com">Português</a></li>
+        <li><a class="lang" locale="in_ID" href="http://id.premierleague.com">Indonesia</a></li>
+        <li><a class="lang" locale="es_ES" href="http://es.premierleague.com">Español</a></li>
+        <li><a class="lang" locale="zh_HK" href="http://cn.premierleague.com">简体中文</a></li>
+        <li><a class="lang" locale="zh_CN" href="http://hk.premierleague.com">繁體中文</a></li>
+        <li><a class="lang" locale="th_TH" href="http://th.premierleague.com">ภาษาไทย</a></li>
+    </ul>
+</div>
+<!-- End Menu navigation -->
+ 
+
+</div>
+
+</div>
+
+    
+    
+
+
+
+<div>
+
+<div class="fixturehead header">
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="defaultPage">
+        
+
+        <div class="content">
+
+
+
+<section id="postmatch-section"> 
+  
+       <div class="fixtureinfo title"> Wed 3 Feb 2016, Goodison Park </div>
+       
+  
+      
+
+
+        
+            <div class="postmatchinfo tabular">
+                <div class="tabular-row">
+                    <div class="home tabular-cell" >
+                        <div class="homebagde homeImage"><img src="/content/dam/premierleague/shared-images/clubs/e/everton/logo.png/_jcr_content/renditions/cq5dam.thumbnail.140.140.png"/></div>
+                        <div class="hometitle"><a href="/en-gb/clubs/club-profile.html/everton">Everton</a></div>
+                           
+                        <div class="goals">
+                         <ul>
+                     
+                        <li><a href="/en-gb/players/playerprofile.html/aaron-lennon">Aaron Lennon (23)</a></li>
+                        <li><a href="/en-gb/players/playerprofile.html/ross-barkley">Ross Barkley (88 Pen,90 Pen)</a></li> 
+                            </ul>
+                        </div>  
+                        
+                    </div> 
+                    <div class="scoreInfo fixtureInfo tabular-cell floatLeft " >
+                        <p class="countscore"><strong>3 - 0</strong></p>
+                    FT  
+                   
+                    </div>
+                    <div class="away tabular-cell" >
+                        <div class="awaybagde"> <img src="/content/dam/premierleague/shared-images/clubs/n/newcastle/logo.png/_jcr_content/renditions/cq5dam.thumbnail.140.140.png"/></div>
+                        <div class="awaytitle"><a href="/en-gb/clubs/club-profile.html/newcastle">Newcastle</a></div>
+                        <div class="goals">
+                         <ul>
+                      
+                            </ul>
+                        
+                        </div>
+                    </div>
+                    <div class="clearfix"></div> 
+                    
+                       <p class="s16">
+                            
+                            <strong>Referee: </strong>Craig Pawson <br/>
+                            
+                            <strong>Attendance:</strong> 36,061 <br /> 
+                            
+                            <span class="matchdayHashTag"> #EVENEW </span>
+                       </p>
+                    
+                    
+                    
+            </div>
+           
+            
+            
+            
+          <nav id="fixture-nav"> 
+          
+          
+          
+                <ul>
+                
+                         <li  > <a href="/en-gb/matches/2015-2016/epl.teams.html/everton-vs-newcastle"> Teams </a> </li>
+                         <li class="matchcentre"> <a href="http://live.premierleague.com/#/gameweek/24/matchday/24/match/803401" target="_blank"> Carlsberg Live Match Centre </a> </li>
+                     
+                         <li class="current" ><a href="/en-gb/matches/2015-2016/epl.commentary.html/everton-vs-newcastle"> Text Commentary </a></li>
+                     
+                        <li  ><a href="/en-gb/matches/2015-2016/epl.match-stats.html/everton-vs-newcastle"> Statistics </a> </li>
+                     
+                       <li ><a href="/en-gb/matches/2015-2016/epl.match-report.html/everton-vs-newcastle"> Match Report </a> </li> 
+                       
+                    <li id="more-results">
+                     
+     
+                        <a href="/en-gb/scores-and-results.html" class="arrow-link up-link">More scores</a>
+                        
+                    </li>    
+                    
+                </ul>
+                
+            </nav>  
+            
+            <div class="clearfix"></div>
+              
+          </div> 
+        </section>
+        
+
+        
+
+
+   </div>
+        
+</div>
+   </div>
+
+
+</div>
+
+
+      
+    <div class="parsys fixturecommentary live-commentary">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="defaultPage">
+        
+<div class="content">
+<h2 class="branded">Text Commentary</h2>
+
+<section id="livecommentary-section">
+
+
+        <a class="refresh" href="javascript:location.reload(true)">Refresh</a>
+        <div class="box tabular">
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +4:18</div>
+                <div class="comment tabular-cell">Match ends, Everton 3, Newcastle United 0.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +4:17</div>
+                <div class="comment tabular-cell">Second Half ends, Everton 3, Newcastle United 0.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="GOAL comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +3:28</div>
+                <div class="comment tabular-cell">GOAL</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Goal!  Everton 3, Newcastle United 0. <span class="player" playerid="88894">Ross Barkley</span> (Everton) converts the penalty with a right footed shot to the high centre of the goal.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="RED_CARD comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +2:46</div>
+                <div class="comment tabular-cell">RED CARD</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell"><span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United) is shown the red card.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +2:41</div>
+                <div class="comment tabular-cell">Penalty conceded by <span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United) after a foul in the penalty area.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +2:41</div>
+                <div class="comment tabular-cell">Penalty Everton. <span class="player" playerid="88894">Ross Barkley</span> draws a foul in the penalty area.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +2:21</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="41733">Georginio Wijnaldum</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +2:21</div>
+                <div class="comment tabular-cell"><span class="player" playerid="50472">James McCarthy</span> (Everton) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">90:00 +0:33</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="26921">Arouna Koné</span> (Everton) right footed shot from the centre of the box is high and wide to the right. Assisted by <span class="player" playerid="88894">Ross Barkley</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">89:05</div>
+                <div class="comment tabular-cell">Corner,  Everton. Conceded by <span class="player" playerid="7933">Fabricio Coloccini</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">89:03</div>
+                <div class="comment tabular-cell">Attempt blocked. <span class="player" playerid="88894">Ross Barkley</span> (Everton) right footed shot from outside the box is blocked. Assisted by <span class="player" playerid="77762">Bryan Oviedo</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="GOAL comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">87:20</div>
+                <div class="comment tabular-cell">GOAL</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Goal!  Everton 2, Newcastle United 0. <span class="player" playerid="88894">Ross Barkley</span> (Everton) converts the penalty with a right footed shot to the bottom left corner.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="YELLOW_CARD comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">87:04</div>
+                <div class="comment tabular-cell">YELLOW CARD</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell"><span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United) is shown the yellow card.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">86:15</div>
+                <div class="comment tabular-cell">Penalty Everton. <span class="player" playerid="17349">Aaron Lennon</span> draws a foul in the penalty area.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">86:15</div>
+                <div class="comment tabular-cell">Penalty conceded by <span class="player" playerid="155513">Rolando Aarons</span> (Newcastle United) after a foul in the penalty area.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">84:43</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="155513">Rolando Aarons</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">84:43</div>
+                <div class="comment tabular-cell"><span class="player" playerid="50472">James McCarthy</span> (Everton) wins a free kick on the right wing.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">81:14</div>
+                <div class="comment tabular-cell">Attempt blocked. <span class="player" playerid="52940">Daryl Janmaat</span> (Newcastle United) left footed shot from outside the box is blocked. Assisted by <span class="player" playerid="60252">Andros Townsend</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">78:50</div>
+                <div class="comment tabular-cell">Attempt blocked. <span class="player" playerid="88894">Ross Barkley</span> (Everton) left footed shot from outside the box is blocked. Assisted by <span class="player" playerid="26921">Arouna Koné</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">78:08</div>
+                <div class="comment tabular-cell">Hand ball by <span class="player" playerid="17349">Aaron Lennon</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">77:36</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">77:36</div>
+                <div class="comment tabular-cell"><span class="player" playerid="88894">Ross Barkley</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">77:06</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">77:06</div>
+                <div class="comment tabular-cell"><span class="player" playerid="50472">James McCarthy</span> (Everton) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">75:41</div>
+                <div class="comment tabular-cell">Corner,  Newcastle United. Conceded by <span class="player" playerid="1632">Gareth Barry</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">75:17</div>
+                <div class="comment tabular-cell">Corner,  Newcastle United. Conceded by <span class="player" playerid="43250">Tom Cleverley</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">75:10</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United) right footed shot from the left side of the box is saved in the top centre of the goal. Assisted by <span class="player" playerid="101148">Jamaal Lascelles</span> with a headed pass.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">74:11</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="43250">Tom Cleverley</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">74:11</div>
+                <div class="comment tabular-cell"><span class="player" playerid="60252">Andros Townsend</span> (Newcastle United) wins a free kick on the right wing.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="YELLOW_CARD comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">73:04</div>
+                <div class="comment tabular-cell">YELLOW CARD</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell"><span class="player" playerid="59949">Seamus Coleman</span> (Everton) is shown the yellow card for a bad foul.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">72:57</div>
+                <div class="comment tabular-cell"><span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">72:57</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="59949">Seamus Coleman</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">71:31</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="7645">Phil Jagielka</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">71:31</div>
+                <div class="comment tabular-cell"><span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">70:34</div>
+                <div class="comment tabular-cell"><span class="player" playerid="59949">Seamus Coleman</span> (Everton) wins a free kick on the right wing.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">70:34</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">68:25</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="155513">Rolando Aarons</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">68:25</div>
+                <div class="comment tabular-cell"><span class="player" playerid="17349">Aaron Lennon</span> (Everton) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">66:21</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">66:21</div>
+                <div class="comment tabular-cell"><span class="player" playerid="7645">Phil Jagielka</span> (Everton) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">65:06</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="128389">Aleksandar Mitrovic</span> (Newcastle United) right footed shot from the centre of the box is close, but misses to the left. Assisted by <span class="player" playerid="45268">Moussa Sissoko</span> with a cross.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">62:50</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by <span class="player" playerid="41733">Georginio Wijnaldum</span> with a headed pass.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">62:19</div>
+                <div class="comment tabular-cell">Corner,  Newcastle United. Conceded by <span class="player" playerid="59949">Seamus Coleman</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">61:30</div>
+                <div class="comment tabular-cell"><span class="player" playerid="7933">Fabricio Coloccini</span> (Newcastle United) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">61:30</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="26921">Arouna Koné</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">61:09</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="121221">Ramiro Funes Mori</span> (Everton) right footed shot from the left side of the box misses to the right following a set piece situation.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">60:59</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="43250">Tom Cleverley</span> (Everton) right footed shot from outside the box is saved in the bottom left corner.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="YELLOW_CARD comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">60:16</div>
+                <div class="comment tabular-cell">YELLOW CARD</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell"><span class="player" playerid="50232">Jonjo Shelvey</span> (Newcastle United) is shown the yellow card for a bad foul.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">60:14</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="50232">Jonjo Shelvey</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">60:14</div>
+                <div class="comment tabular-cell"><span class="player" playerid="77762">Bryan Oviedo</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">58:07</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="101148">Jamaal Lascelles</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">58:07</div>
+                <div class="comment tabular-cell"><span class="player" playerid="26921">Arouna Koné</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">56:22</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="121221">Ramiro Funes Mori</span> (Everton) header from the centre of the box is close, but misses to the left. Assisted by <span class="player" playerid="77762">Bryan Oviedo</span> with a cross following a corner.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">55:42</div>
+                <div class="comment tabular-cell">Corner,  Everton. Conceded by <span class="player" playerid="19838">Robert Elliot</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">55:41</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="88894">Ross Barkley</span> (Everton) right footed shot from outside the box is saved in the top right corner. Assisted by <span class="player" playerid="77762">Bryan Oviedo</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">55:07</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="50232">Jonjo Shelvey</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">55:07</div>
+                <div class="comment tabular-cell"><span class="player" playerid="88894">Ross Barkley</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="SUBSTITUTION comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">54:40</div>
+                <div class="comment tabular-cell">SUBSTITUTION</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Substitution, Newcastle United. <span class="player" playerid="128389">Aleksandar Mitrovic</span> replaces <span class="player" playerid="43521">Henri Saivet</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">50:48</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="26921">Arouna Koné</span> (Everton) right footed shot from the centre of the box is close, but misses to the right.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">50:45</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="17349">Aaron Lennon</span> (Everton) left footed shot from the centre of the box is saved in the centre of the goal. Assisted by <span class="player" playerid="88894">Ross Barkley</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">49:51</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="50232">Jonjo Shelvey</span> (Newcastle United) right footed shot from outside the box is saved in the top right corner. Assisted by <span class="player" playerid="43521">Henri Saivet</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="SUBSTITUTION comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">45:01</div>
+                <div class="comment tabular-cell">SUBSTITUTION</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Substitution, Newcastle United. <span class="player" playerid="155513">Rolando Aarons</span> replaces <span class="player" playerid="106618">Paul Dummett</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="SUBSTITUTION comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">45:01</div>
+                <div class="comment tabular-cell">SUBSTITUTION</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Substitution, Everton. <span class="player" playerid="26921">Arouna Koné</span> replaces <span class="player" playerid="66749">Romelu Lukaku</span> because of an injury.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">45:00 +0:17</div>
+                <div class="comment tabular-cell">First Half ends, Everton 1, Newcastle United 0.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">45:00 +0:16</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="88894">Ross Barkley</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">45:00 +0:16</div>
+                <div class="comment tabular-cell"><span class="player" playerid="45268">Moussa Sissoko</span> (Newcastle United) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">43:49</div>
+                <div class="comment tabular-cell">Delay over. They are ready to continue.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="SUBSTITUTION comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">43:48</div>
+                <div class="comment tabular-cell">SUBSTITUTION</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Substitution, Newcastle United. <span class="player" playerid="101148">Jamaal Lascelles</span> replaces <span class="player" playerid="149736">Chancel Mbemba</span> because of an injury.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">42:10</div>
+                <div class="comment tabular-cell">Delay in match <span class="player" playerid="149736">Chancel Mbemba</span> (Newcastle United) because of an injury.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">41:13</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="66749">Romelu Lukaku</span> (Everton) left footed shot from the centre of the box is high and wide to the right. Assisted by <span class="player" playerid="1632">Gareth Barry</span> with a headed pass.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">41:07</div>
+                <div class="comment tabular-cell">Attempt blocked. <span class="player" playerid="17349">Aaron Lennon</span> (Everton) right footed shot from the centre of the box is blocked. Assisted by <span class="player" playerid="59949">Seamus Coleman</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">38:24</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="88894">Ross Barkley</span> (Everton) right footed shot from outside the box is close, but misses to the left from a direct free kick.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">37:42</div>
+                <div class="comment tabular-cell"><span class="player" playerid="17349">Aaron Lennon</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">37:42</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="106618">Paul Dummett</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">35:17</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="88894">Ross Barkley</span> (Everton) right footed shot from outside the box is high and wide to the right.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">33:20</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="106618">Paul Dummett</span> (Newcastle United) left footed shot from outside the box misses to the right. Assisted by <span class="player" playerid="45268">Moussa Sissoko</span> with a cross.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">25:35</div>
+                <div class="comment tabular-cell">Offside, Newcastle United. <span class="player" playerid="50232">Jonjo Shelvey</span> tries a through ball, but <span class="player" playerid="41733">Georginio Wijnaldum</span> is caught offside.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">25:34</div>
+                <div class="comment tabular-cell">Attempt blocked. <span class="player" playerid="50232">Jonjo Shelvey</span> (Newcastle United) left footed shot from outside the box is blocked.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="GOAL comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">22:29</div>
+                <div class="comment tabular-cell">GOAL</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">Goal!  Everton 1, Newcastle United 0. <span class="player" playerid="17349">Aaron Lennon</span> (Everton) right footed shot from outside the box to the bottom left corner. Assisted by <span class="player" playerid="43250">Tom Cleverley</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">21:40</div>
+                <div class="comment tabular-cell">Attempt missed. <span class="player" playerid="66749">Romelu Lukaku</span> (Everton) left footed shot from outside the box is close, but misses to the right from a direct free kick.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">20:43</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="149736">Chancel Mbemba</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">20:43</div>
+                <div class="comment tabular-cell"><span class="player" playerid="66749">Romelu Lukaku</span> (Everton) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">18:03</div>
+                <div class="comment tabular-cell"><span class="player" playerid="168580">Ayoze Pérez</span> (Newcastle United) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">18:03</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="77762">Bryan Oviedo</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">14:09</div>
+                <div class="comment tabular-cell"><span class="player" playerid="41733">Georginio Wijnaldum</span> (Newcastle United) wins a free kick in the attacking half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">14:09</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="50472">James McCarthy</span> (Everton).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">11:28</div>
+                <div class="comment tabular-cell">Delay over. They are ready to continue.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">10:20</div>
+                <div class="comment tabular-cell">Delay in match <span class="player" playerid="66749">Romelu Lukaku</span> (Everton) because of an injury.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">7:31</div>
+                <div class="comment tabular-cell">Corner,  Everton. Conceded by <span class="player" playerid="106618">Paul Dummett</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">6:04</div>
+                <div class="comment tabular-cell">Foul by <span class="player" playerid="60252">Andros Townsend</span> (Newcastle United).</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">6:04</div>
+                <div class="comment tabular-cell"><span class="player" playerid="59949">Seamus Coleman</span> (Everton) wins a free kick in the defensive half.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">4:11</div>
+                <div class="comment tabular-cell">Attempt saved. <span class="player" playerid="43250">Tom Cleverley</span> (Everton) right footed shot from outside the box is saved in the bottom right corner. Assisted by <span class="player" playerid="66749">Romelu Lukaku</span>.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        
+            <div class="KICKOFF comment-row tabular-row borderBottomBlue ">
+                <div class="time tabular-cell">0:00</div>
+                <div class="comment tabular-cell">KICKOFF</div>
+            </div>
+            <div class="tabular-row">
+                <div class="tabular-cell"></div>
+                <div class="comment tabular-cell">First Half begins.</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+        
+        </div>
+      
+     
+
+    </section>
+  </div>  
+</div></div>
+
+         
+    <div class="parsys commentary"></div>
+
+    
+    
+
+
+<div class="sociallinks">
+
+  
+
+
+ </div>
+
+   
+
+<div class="parsys iparsys footer-container"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="parsys iparsys footer-container"><div class="section"><div class="parsys mobilefooter">
+
+
+
+<div class="back-to-top">
+    <div class="content clearfix">
+        <a href="#" id="back-to-top-bottom" class="up-link">Back to top</a>
+    </div>
+</div>
+
+<footer>
+    <div class="content"> 
+            <div class="footer-menu-container">
+                <a href="#menu-nav" id="menu-bottom" class="arrow-link menu-link">MENU</a>
+            </div>
+
+        <div class="footer-sponsors">
+            <div class="logo1">
+                <div class="logo image1">
+
+
+
+
+		<a href="http://www.barclays.com">
+			<img src="/content/dam/premierleague/footer/sponsor_barclays_mobile.png" alt="Barclays" title="Barclays"/>
+		</a></div>
+
+            </div>
+            <ul>
+                <li class="logo2">
+                    <div class="logo image2">
+
+
+
+
+		<a href="http://www.easportsfootball.com">
+			<img src="/content/dam/premierleague/footer/ea-sports-logo-mobile.png" alt="EA SPORTS" title="EA SPORTS"/>
+		</a></div>
+
+                </li>
+                <li class="logo3">
+                    <div class="logo image3">
+
+
+
+
+		<a href="http://www.nikefootball.com">
+			<img src="/content/dam/premierleague/footer/sponsor_nike_mobile.png" alt="Nike Football" title="Nike Football"/>
+		</a></div>
+
+                </li>
+                <li class="logo4">
+                    <div class="logo image4">
+
+
+
+
+		<a href="http://www.facebook.com/CarlsbergUK">
+			<img src="/content/dam/premierleague/footer/sponsor_carlsberg_mobile.png" alt="Carlsberg" title="Carlsberg"/>
+		</a></div>
+
+                </li>
+                <li class="logo5">
+                    <div class="logo image5">
+
+
+
+
+		<a href="http://www.toppsfootball.co.uk">
+			<img src="/content/dam/premierleague/footer/sponsor_topps_mobile.png" alt="Topps" title="Topps"/>
+		</a></div>
+
+                </li>
+            </ul>
+        </div>
+        
+        <ul class="footer-links">
+            <li><a id="fullLink" href="http://www.premierleague.com">Desktop site</a></li>
+            <li><a href="/en-gb/about/handbook-2015-16.html" target="_blank">Handbook 2015/16</a></li>
+            <li><a href="/en-gb/toolbar/terms-conditions.html">Terms and Conditions</a></li>
+            <li><a href="/en-gb/toolbar/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+        
+        <div class="social-share">
+            <ul>
+                <li class="facebook">
+                    <a href="https://www.facebook.com/premierleague" target="blank">Facebook</a>
+                </li>
+                <li class="twitter">
+                    Twitter
+                </li>
+                <li class="instagram">
+                    <a href="http://instagram.com/premierleague?ref=badge" target="blank">Instagram</a>
+                </li>
+            </ul>
+            <script type="text/javascript"> 
+                $('.facebook a').bind("click",function(){
+                    window.GABeacon.trigger("GAEvent:track",["social","click","Facebook"]);
+                });
+                $('.twitter a').bind("click",function(){
+                    window.GABeacon.trigger("GAEvent:track",["social","click","Twitter"]);
+                });
+            </script>
+        </div>
+
+        <p class="copyright">&copy; 2015 Premier League</p>
+
+        <a href="/en-gb.html" class="footer-logo-new">
+            <img alt="Barclays" class="img" src="/etc/designs/mobile/images/barclays.png" border="0"/>
+        </a>
+    </div>
+</footer></div>
+</div></div>
+</div>
+</div>
+
+
+
+
+            
+
+<!-- GA Mobile Specific Code -->
+<script type="text/javascript"> 
+	_gaq.push(['_setCustomVar',3,'Site','Mobile',3]);   
+</script>
+
+<!-- GA Document Groups -->
+<script type="text/javascript"> 
+	_gaq.push(['_setCustomVar',2,'DocumentGroup', 'PL Mobile | Matches' ,3]); 
+</script>
+
+    
+
+<!-- Begin comScore Tag -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push(
+    { c1: "2", c2: "6035584" }
+    
+    );
+    (function()
+    { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); }
+    
+    )();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035584&cv=2.0&cj=1"/>
+</noscript>
+<!-- End comScore Tag -->
+    
+    
+
+<!-- Lotame Footer Tag -->
+<script type="text/javascript" src="http://tags.crwdcntrl.net/c/3688/cc.js?ns=_cc3688" id="LOTCC_3688"></script>
+<script type="text/javascript" language="javascript">_cc3688.bcp();</script>
+<!-- end of Lotame Footer Tag -->  
+
+
+</div>
+</body>
+</html>
+
