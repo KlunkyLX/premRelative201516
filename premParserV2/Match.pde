@@ -71,16 +71,16 @@ class Match {
     if (calLcl.before(calGlbl)) {
       frstKickOff = kickOff;  // place val into glbl vrble
     }
-//println(pgeID + ", " + homeTeam + ", " + awayTeam + ", " + homeScore + ", " + awayScore +
-//", " + homeWin + ", " + draw + ", " + kickOff);  // debug - delete
+    //println(pgeID + ", " + homeTeam + ", " + awayTeam + ", " + homeScore + ", " + awayScore +
+    //", " + homeWin + ", " + draw + ", " + kickOff);  // debug - delete
     // Debug
     //--------------------------------------------------------------------------------//
     // Write this file for a club if live txt cmmntry suspctd missing.
     // Un-comment glbl vrble and flsh/ close in setup().
     /*String suspctdClb = "Southampton";
-    if (homeTeam.equals(suspctdClb) || awayTeam.equals(suspctdClb)) {
-      writer.println(kickOff + "," + homeTeam + "," + homeScore + "," + awayScore + "," + awayTeam);
-    }*/
+     if (homeTeam.equals(suspctdClb) || awayTeam.equals(suspctdClb)) {
+     writer.println(kickOff + "," + homeTeam + "," + homeScore + "," + awayScore + "," + awayTeam);
+     }*/
     //--------------------------------------------------------------------------------//
 
     // cnstrctr enclsng crly brace

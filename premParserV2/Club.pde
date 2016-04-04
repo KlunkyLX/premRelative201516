@@ -30,7 +30,6 @@ class Club {
     this.namePrem = newNamePrem;
     this.nameSTAT = newNameSTAT;
     this.lstSsnPos = (Integer) lastSeason.get(namePrem);
-    //println(namePrem + ", " + nameSTAT + ", " + matchIDs.size() + ", " + lstSsnPos);  // debug - delete
     // cnstrctr enclsng crly brace
   }
 

@@ -9,7 +9,8 @@ HashSet<String> popPageIDs() {
   // Declare local variables.
   //--------------------------------------------------------------------------------//
   HashSet<String> pages = new HashSet<String>();  // mthd rtrn type
-  String rsltPage = "http://www.bbc.co.uk/sport/football/premier-league/results";
+  //String rsltPage = "http://www.bbc.co.uk/sport/football/premier-league/results";
+  String rsltPage = "http://www.bbc.co.uk/sport/football/results";  // refact?
   //String rsltPage = "results.html";  // local - delete
   //String rsltPage = "http://www.bbc.co.uk/sport/football/championship/results";
   //String rsltPage = "http://www.bbc.co.uk/sport/football/league-one/results";
@@ -49,11 +50,11 @@ HashSet<String> popPageIDs() {
   lastSeason.put("Swansea", 8);
   lastSeason.put("Stoke", 9);
   lastSeason.put("Crystal Palace", 10);
-  lastSeason.put("Everton", 2);
+  lastSeason.put("Everton", 11);
   lastSeason.put("West Ham", 12);
   lastSeason.put("West Brom", 13);
   lastSeason.put("Leicester", 14);
-  lastSeason.put("Newcastle", 1);
+  lastSeason.put("Newcastle", 15);
   lastSeason.put("Sunderland", 16);
   lastSeason.put("Aston Villa", 17);
   lastSeason.put("Bournemouth", 18);

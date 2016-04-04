@@ -8,12 +8,13 @@
 //--------------------------------------------------------------------------------//
 
 void prseRprt(String pageID, String[] kickOffs, String hmeScre, String awyScre) {
-String hmeClb = "";  // nme of club
-String awyClb = "";  // nme of club
+
   // Declare local variables.
   //--------------------------------------------------------------------------------//
-  //String url = "http://www.bbc.co.uk/sport/0/football/" + pageID;
-  String url = pageID + ".txt";  // local - delete
+  String hmeClb = "";  // nme of club
+  String awyClb = "";  // nme of club
+  String url = "http://m.premierleague.com/en-gb/matches/2015-2016/epl.commentary.html/" + pageID;
+  //String url = pageID + ".txt";  // local - delete
   String[] lines = loadStrings(url);
   //--------------------------------------------------------------------------------//
 
@@ -26,7 +27,6 @@ String awyClb = "";  // nme of club
       String[] hmeLine2 = split(hmeLine1[1], "\">");
       String[] hmeLine3 = split(hmeLine2[1], "</a>");
       hmeClb = trim(hmeLine3[0]);
-      //println(hmeClb);  // debug - delete
     } else if (line.contains("<p class=\"countscore\"><strong>")) {
       String[] screLine1 = split(line, "<p class=\"countscore\"><strong>");
       String[] screLine2 = split(screLine1[1], " - ");
@@ -38,10 +38,8 @@ String awyClb = "";  // nme of club
       String[] awyLine2 = split(awyLine1[1], "\">");
       String[] awyLine3 = split(awyLine2[1], "</a>");
       awyClb = trim(awyLine3[0]);
-      //println(awyClb);  // debug - delete
     }
   }  // line loop enclsng brce
-  //println(hmeClb + " " +  hmeScre + ", " + awyClb + " " + awyScre);  // debug
   addClubMtch(hmeClb, awyClb, hmeScre, awyScre, kickOffs, pageID);  // called below
   addGoal(lines, pageID);
   //--------------------------------------------------------------------------------//
@@ -73,7 +71,7 @@ void addClubMtch(String hmeClb, String awyClb, String hmeScre, String awyScre,
     homeWin = false;
     draw = true;
   }
-  
+
   // Parse kickOff times from SoccerSTATS html array.
   for (int i = 0; i < kickOffs.length; i++) {
     String hndleLft = "<td>&nbsp;";
@@ -216,101 +214,129 @@ void addGoal(String[] lines, String pageID) {
 
 // Method to parse in goals for 1st and 2nd half into Evnt class.
 //--------------------------------------------------------------------------------//
-void goalPrsr(String[] lines, String[] mmssFrst, 
-  String matchID, Date kickOff) {
-  String[] mmss = {"00", "00"};
-  String[] mmssX = {"00", "00"};
-  String homeGoals = "";  // intlze frthr down
-  String awayGoals = "";  // intlze frthr down
+void goalPrsr(String[] lines, String[] mmssFrst, String matchID, Date kickOff) {
 
   // Establish goal time.
   //--------------------------------------------------------------------------------//
   // Loop thrgh lines.
   for (int i = 0; i < lines.length; i++) {
+    String[][] mmss = {{"00", "00"}, {"00", "00"}};  // mm, mmX, ss, ssX
+    String homeGoals = "";  // intlze frthr down
+    String awayGoals = "";  // intlze frthr down
+    boolean scndHlf = true;
+    if (i > endFrstHlfIndx) {
+      scndHlf = false;  // if 2nd hlf add on 15 mins + and 1st hlf added on
+    }
+
     // Goal found.
     if (lines[i].contains("<div class=\"GOAL comment-row tabular-row borderBottomBlue \">")) {
-      boolean scndHlf = true;
-      if (i > endFrstHlfIndx) {
-        scndHlf = false;  // if 2nd hlf add on 15 mins + and 1st hlf added on
-      }
-      String mins = trim(lines[i+ 1].replaceAll("<div class=\"time tabular-cell\">", ""));
-      mins = trim(mins.replaceAll("</div>", ""));
-      if (mins.contains("+") == false) {  // no added time
-        String[] mmssTme = trim(split(mins, ":"));
-        mmss[0] = trim(mmssTme[0]);  // mins
-        mmss[1] = trim(mmssTme[1]);  // secs
-      } else {
-        String[] mmssTmeX = trim(split(mins, "+"));
-        String[] mmssTme = trim(split(mmssTmeX[0], ":"));
-        mmss[0] = trim(mmssTme[0]);  // mins
-        mmss[1] = trim(mmssTme[1]);  // secs
-        String[] mmssTmeXX = trim(split(mmssTmeX[1], ":"));
-        mmssX[0] = trim(mmssTmeXX[0]);  // mins
-        mmssX[1] = trim(mmssTmeXX[1]);  // secs
-      }
-      //--------------------------------------------------------------------------------//
-
-      // Create calndr objct current goal time.
-      //--------------------------------------------------------------------------------//
-      Calendar cal = Calendar.getInstance();
-      cal.setTime(kickOff);
-      cal.add(Calendar.MINUTE, int(mmss[0]) + int(mmssX[0]));
-      cal.add(Calendar.SECOND, int(mmss[1]) + int(mmssX[1]));
-      // If scnd hlf, add 15 min break and any frst hlf extra time.
-      if (scndHlf) {
-        cal.add(Calendar.MINUTE, 15 + int(trim(mmssFrst[0])));
-        cal.add(Calendar.SECOND, int(trim(mmssFrst[1])));
-      }
-      Date goalTime = cal.getTime();
-      println(int(mmss[0]) + ", " + int(mmss[1]));  // debug - delete
-      println(int(mmssX[0]) + ", " + int(mmssX[1]));  // debug - delete
-      println(matchID + ": " + goalTime);  // debug
-      //--------------------------------------------------------------------------------//
-
+      String line = lines[i + 1];
+      mmss = minsSecs(line);
       // Retrieve current new score.
       //--------------------------------------------------------------------------------//
       // Quickly nest loop further couple of lines.
-      for (int ii = 0; ii < 30; ii++) {  // arbtry param
+      for (int ii = i; ii < i + 8; ii++) {
+        //println(i + ": " + ii);  // debug
         if (lines[ii].contains("<div class=\"comment tabular-cell\">Goal!")) { 
           String score = trim(lines[ii].replaceAll("<div class=\"comment tabular-cell\">Goal!", ""));
-          score = trim(score.replaceAll(".", ""));
-          String[] halves = trim(split(score, ","));
-          String[] home = trim(split(halves[0], " "));
-          homeGoals = home[1];
-          String[] away = trim(split(halves[1], " "));
-          awayGoals = away[1];
+          String[] crrntRslt = trim(split(score, ". <span"));
+          String[] halves = trim(split(crrntRslt[0], ","));
+          homeGoals = trim(halves[0].replaceAll("\\D", ""));  // rmve all non dgt chars
+          awayGoals = trim(halves[1].replaceAll("\\D", ""));  // rmve all non dgt chars
         }  // if scoreline found enclsng brce
       }  // scoreline loop enclsng brce
       //--------------------------------------------------------------------------------//
-
-      // Create an event object.
-      //--------------------------------------------------------------------------------//
-      String eventID = matchID + ":" + homeGoals + "-" + awayGoals;   // matchID:sco-re
-      String time = "";  // kludge - debug - delete
-      String extraTime = "";  // kludge - debug - delete
-      if (events.containsKey(goalTime) == false) {
-        // Create a new Event object.
-        Event goal = new Event(eventID, matchID, goalTime, time, extraTime, 
-          int(homeGoals), int(awayGoals), scndHlf, false);
-        // Add new hsh key and objct hshset.
-        HashSet<Event> noGoals = new HashSet<Event>();
-        noGoals.add(goal);
-        events.put(goalTime, noGoals);
-      } else {  // update exstng hsh
-        // Retrieve exstng hshset of event objects.
-        HashSet<Event> exstngGoals = events.get(goalTime);
-        // Add new goal to the list.
-        Event goal = new Event(eventID, matchID, goalTime, time, extraTime, 
-          int(homeGoals), int(awayGoals), scndHlf, false);
-        exstngGoals.add(goal);
-        // Re-populate hshmp.
-        events.put(goalTime, exstngGoals);
-      }
-      //--------------------------------------------------------------------------------//
+      Date goalTime = scoreTime(kickOff, mmssFrst, mmss, scndHlf);  // create calndr objct
+      createEvent(matchID, homeGoals, awayGoals, goalTime, scndHlf);  // create an event object
     }  // if a goal is found enclsng brce
+
+    // Own goal found
+    //--------------------------------------------------------------------------------//
+    else if (lines[i].contains("<div class=\"comment tabular-cell\">Own Goal by")) { 
+      String[] crrntRslt = trim(split(lines[i], "."));
+      String[] halves = trim(split(crrntRslt[1], ","));
+      homeGoals = trim(halves[0].replaceAll("\\D", ""));  // rmve all non dgt chars
+      awayGoals = trim(halves[1].replaceAll("\\D", ""));  // rmve all non dgt chars
+      String line = lines[i - 1];
+      mmss = minsSecs(line);
+      Date goalTime = scoreTime(kickOff, mmssFrst, mmss, scndHlf);  // create calndr objct
+      createEvent(matchID, homeGoals, awayGoals, goalTime, scndHlf);  // create an event object
+    }  // else if own goal found enclsng brce
+    //--------------------------------------------------------------------------------//
   }  // line loop enclsng brce
   //--------------------------------------------------------------------------------//
 }  // goal prsr mthd enclsng brce
+//--------------------------------------------------------------------------------//
+
+// Calculate min and sec for goal time
+//--------------------------------------------------------------------------------//
+String[][] minsSecs(String line) {
+  String[][] mmss = {{"00", "00"}, {"00", "00"}};
+
+  String mins = trim(line.replaceAll("<div class=\"time tabular-cell\">", ""));
+  mins = trim(mins.replaceAll("</div>", ""));
+  if (mins.contains("+") == false) {  // no added time
+    String[] mmssTme = trim(split(mins, ":"));
+    mmss[0][0] = trim(mmssTme[0]);  // mins
+    mmss[1][0] = trim(mmssTme[1]);  // secs
+  } else {
+    String[] mmssTmeX = trim(split(mins, "+"));
+    String[] mmssTme = trim(split(mmssTmeX[0], ":"));
+    mmss[0][0] = trim(mmssTme[0]);  // mins
+    mmss[1][0] = trim(mmssTme[1]);  // secs
+    String[] mmssTmeXX = trim(split(mmssTmeX[1], ":"));
+    mmss[0][1] = trim(mmssTmeXX[0]);  // mins
+    mmss[1][1] = trim(mmssTmeXX[1]);  // secs
+  }
+  return mmss;
+}  // mthd enclsng brce
+//--------------------------------------------------------------------------------//
+
+// Create a goal time date object.
+//--------------------------------------------------------------------------------//
+Date scoreTime(Date kickOff, String[] mmssFrst, String[][] mmss, boolean scndHlf) {
+  Date goalTime = new Date();
+  Calendar cal = Calendar.getInstance();
+  cal.setTime(kickOff);
+  cal.add(Calendar.MINUTE, int(mmss[0][0]) + int(mmss[0][1]));
+  cal.add(Calendar.SECOND, int(mmss[1][0]) + int(mmss[1][1]));
+  // If scnd hlf, add 15 min break and any frst hlf extra time.
+  if (scndHlf) {
+    cal.add(Calendar.MINUTE, 15 + int(trim(mmssFrst[0])));
+    cal.add(Calendar.SECOND, int(trim(mmssFrst[1])));
+  }
+  goalTime = cal.getTime();
+
+  return goalTime;
+}  // mthd enclsng brce
+//--------------------------------------------------------------------------------//
+
+// Create an event object.
+//--------------------------------------------------------------------------------//
+void createEvent(String matchID, String homeGoals, String awayGoals, Date goalTime, 
+  boolean scndHlf) {
+  String eventID = matchID + ":" + homeGoals + "-" + awayGoals;   // matchID:sco-re
+  String time = "";  // kludge - debug
+  String extraTime = "";  // kludge - debug
+  if (events.containsKey(goalTime) == false) {
+    // Create a new Event object.
+    Event goal = new Event(eventID, matchID, goalTime, time, extraTime, 
+      int(homeGoals), int(awayGoals), scndHlf, false);
+    // Add new hsh key and objct hshset.
+    HashSet<Event> noGoals = new HashSet<Event>();
+    noGoals.add(goal);
+    events.put(goalTime, noGoals);
+  } else {  // update exstng hsh
+    // Retrieve exstng hshset of event objects.
+    HashSet<Event> exstngGoals = events.get(goalTime);
+    // Add new goal to the list.
+    Event goal = new Event(eventID, matchID, goalTime, time, extraTime, 
+      int(homeGoals), int(awayGoals), scndHlf, false);
+    exstngGoals.add(goal);
+    // Re-populate hshmp.
+    events.put(goalTime, exstngGoals);
+  }
+}  // mthd enclsng brce
 //--------------------------------------------------------------------------------//
 
 // Quick mthd to parse conflicting BBC names to SoccerSTAT names.
@@ -318,7 +344,7 @@ void goalPrsr(String[] lines, String[] mmssFrst,
 String nameToStat(String premName) {
   String statName;
 
-  if (premName.equals("Man Untd")) {
+  if (premName.equals("Man Utd")) {
     statName = "Manchester Utd";
   } else if (premName.equals("Newcastle")) {
     statName = "Newcastle Utd";
@@ -331,7 +357,7 @@ String nameToStat(String premName) {
   } else if (premName.equals("West Brom")) {
     statName = "West Bromwich";
   } else if (premName.equals("Norwich")) {
-    statName = "Norwich";
+    statName = "Norwich City";
   } else if (premName.equals("Swansea")) {
     statName = "Swansea City";
   } else if (premName.equals("West Ham")) {

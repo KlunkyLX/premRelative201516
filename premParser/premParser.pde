@@ -458,9 +458,10 @@ void setup() {
 void updteClub(Date evntTme, String clubName, int goalsFor, int goalsAgnst, 
   int crrntRslt, boolean fnlScore) {
   Club newClub = clubs.get(clubName);
+  println(newClub + ", " + evntTme + ", for " + ", agnst " + goalsAgnst);  // debug - delete
 
   // Get total points at end of previous game.
-  int pointsNow = crrntRslt + newClub.getCumPoints();
+  int pointsNow = crrntRslt + newClub.getCumPoints();  // bug
   HashMap<Date, Integer> crrntPoints = newClub.getCrrntPoints();
   crrntPoints.put(evntTme, pointsNow);
   newClub.setCrrntPoints(crrntPoints);

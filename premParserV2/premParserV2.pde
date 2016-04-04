@@ -74,7 +74,20 @@ void setup() {
   // Parse ea rprtPage and create/ update match, club, event and timeline objects.
   //--------------------------------------------------------------------------------//
   // Itrte thrgh ea report page.
-  prseRprt("33744668", kickOffs, "", "");  // local - deleteete
+  String[] pages = loadStrings("wwwmpremListofPgesToPrse.csv");
+  String url = "http://m.premierleague.com/en-gb/matches/2015-2016/epl.commentary.html/";
+  //prseRprt("33744668", kickOffs, "", "");  // local - delete
+  int lastTime = 1000;  // timer vrble - start after 1 sec
+  for (String page : pages) {
+    // Create random speed at which each report page is parsed in
+    // order not to be chucked off Prem's server.
+    float r = random(0.2, 0.5);  // wait between every 0.2 to 0.5 secs
+    while ((millis() - lastTime) < r) {
+    }
+    String[] fields = split(page, ",");
+    prseRprt(url + fields[0] + "-vs-" + fields[1], kickOffs, "", "");  // called in seperate tab
+    lastTime = millis();
+  }  // rprtPages itrtn enclsng brce
   //--------------------------------------------------------------------------------//
 
   // loop thrgh ea event.
@@ -378,7 +391,7 @@ void setup() {
 
   // Rtrve club icons.
   //iconPrsr();
-  
+
   // Debug
   //--------------------------------------------------------------------------------//
   //writer.flush();
@@ -400,7 +413,7 @@ void setup() {
 void updteClub(Date evntTme, String clubName, int goalsFor, int goalsAgnst, 
   int crrntRslt, boolean fnlScore) {
   Club newClub = clubs.get(clubName);
-  
+
   // Get total points at end of previous game.
   int pointsNow = crrntRslt + newClub.getCumPoints();  // bug
   HashMap<Date, Integer> crrntPoints = newClub.getCrrntPoints();
@@ -521,4 +534,4 @@ void addLgeTbleRow(Club club) {
 
 //--------------------------------------------------------------------------------//
 //------------------------------ Functionality End -------------------------------//
-//--------------------------------------------------------------------------------//saveTable(timesTble, "../" + league + "times" + fileDate + ".csv", "csv");
+//--------------------------------------------------------------------------------//
