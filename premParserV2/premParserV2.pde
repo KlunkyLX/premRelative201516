@@ -315,6 +315,7 @@ void setup() {
   // Write current league table.
   //--------------------------------------------------------------------------------//
   // Retrve vals from last row of previous tble.
+  // Table is not sorted.
   TableRow lastRow = ptsTble.getRow(ptsTble.lastRowIndex());
   // Pop vals arry and clubs latest vals hsh.
   HashSet<Integer> metaVals = new HashSet<Integer>();  // to cnvrt to lst
