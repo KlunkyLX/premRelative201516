@@ -46,8 +46,29 @@ class Match {
     // my poor judgment suggests conformity may be most appropriate here.
     SimpleDateFormat sdfTime = new SimpleDateFormat("HH:mm:ss");
     String kickOffTime = sdfTime.format(kickOff);    
-    if (kickOffTime.equals("14:00:00")) {
-      kickOffTime = "15:00:00";
+    if (kickOffTime.equals("13:45:00") || kickOffTime.equals("14:00:00") ||
+      kickOffTime.equals("15:05:00") || kickOffTime.equals("16:00:00") ||
+      kickOffTime.equals("17:00:00") || kickOffTime.equals("17:05:00") ||
+      kickOffTime.equals("18:30:00") || kickOffTime.equals("20:45:00") ||
+      kickOffTime.equals("21:00:00")) {
+
+      if (kickOffTime.equals("13:45:00")) {
+        kickOffTime = "12:45:00";
+      } else if (kickOffTime.equals("14:00:00") || kickOffTime.equals("16:00:00")) {
+        kickOffTime = "15:00:00";
+      } else if (kickOffTime.equals("15:05:00")) {
+        kickOffTime = "14:05:00";
+      } else if (kickOffTime.equals("17:00:00")) {
+        kickOffTime = "16:00:00";
+      } else if (kickOffTime.equals("17:05:00")) {
+        kickOffTime = "16:05:00";
+      } else if (kickOffTime.equals("18:30:00")) {
+        kickOffTime = "17:30:00";
+      } else if (kickOffTime.equals("20:45:00")) {
+        kickOffTime = "19:45:00";
+      } else if (kickOffTime.equals("21:00:00")) {
+        kickOffTime = "21:00:00";
+      }
 
       SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd");
       String kickOffDate = sdfDate.format(kickOff);

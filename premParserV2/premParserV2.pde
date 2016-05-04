@@ -11,7 +11,7 @@
 // http://www.soccerstats.com/results.asp?league=england
 // Some kickoffs show 2pm. These have been altered to 3pm. However, I think
 // some games at 8pm actually kicked-off at 7.45pm so there may be further
-// inaccuracies here also.
+// inaccuracies here also. Other times altered also.
 
 // Tristan Skinner
 // 30/03/2016
@@ -69,7 +69,7 @@ void setup() {
   HashSet<String> rprtPages = popPageIDs();  // pop html page IDs in seperate tab
   // Load kick-off times from soccer.stats.com.
   String[] kickOffs = loadStrings("http://www.soccerstats.com/results.asp?league=england");
-  //String[] kickOffs = loadStrings("soccerStatsKickOff.txt");  // local - delete
+  //String[] kickOffs = loadStrings("soccerStatsKickOff.txt");  // local
 
   // Parse ea rprtPage and create/ update match, club, event and timeline objects.
   //--------------------------------------------------------------------------------//
